@@ -1,0 +1,71 @@
+---
+layout: page
+title: Daily Notes
+date:
+type:
+
+---
+
+<div class="container-lg">
+
+    <div class="leftcolumn">
+      {% include profile-card.html %}
+    </div>
+
+    <div class="midcolumn">
+      <article>
+        <h1 class="title-text">Latest Daily Notes</h1>
+        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.echo.size }} posts</p>
+        <p style=" width: 100%; text-align: center"><a href="/pages/all-daily/">View Index</a></p>
+      </article>
+<br>
+      {% assign items = site.daily | sort: 'date' | reverse %}
+      {% for item in items %}	
+
+    <main>
+      <article class="latest-post-border">
+        <a href="{{ item.url }}">
+        <div class="title">
+        <h1 class="title-text">{{item.title}}</h1> 
+        </div>
+      </a>
+          {% for subtitle in item.subtitle %}
+          {% unless item.subtitle == "" %}  
+        <div class = "subtitle">
+          <h2 class="subtitle-text">{{item.subtitle}}</h2>
+        </div>
+          {% endunless %}
+          {% endfor %}
+          <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
+
+        <div class="notes-entry-container note">
+          <div class="content post-content">
+  
+            {{ item.content }}
+  
+          </div>
+          </div>
+          <hr>
+  </article>  
+  
+  </main>
+
+  
+<br>
+
+{% endfor %}
+</div>
+</div>
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>

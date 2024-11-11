@@ -1,0 +1,50 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "files.defaultLanguage": "markdown",
+  "files.exclude": {
+    ".gitignore": true,
+    ".jekyll-cache": true,
+    ".vscode": true,
+    "**/node_modules": true,
+    "Gemfile": true,
+    "Gemfile.lock": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true
+  },
+  "foam.edit.linkReferenceDefinitions": "withoutExtensions",
+  "foam.openDailyNote.directory": "_daily",
+  "foam.openDailyNote.titleFormat": "mm-dd-yy",
+  "foam.openDailyNote.onStartup": false,
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "markdown.preview.breaks": true,
+  "pasteImage.path": "${projectRoot}/images",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "prettier.singleQuote": false,
+  "spellright.notificationClass": "warning",
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "insertDateString.format": "MMM D YYYY",
+  "pasteImage.basePath": "${projectRoot}",
+  "netlify.api_token": "2USD9xBolRvHmrqP11P4inxeImJjcUgahrEEz7ASzIU",
+  "netlify.site_id": "86d67119-236a-47b6-9570-559da07febfb",
+  "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+  "pasteImage.forceUnixStyleSeparator": false,
+  "pasteImage.prefix": "/",
+  "jekyll-run.stopServerOnExit": false,
+  "gitdoc.autoPullDelay": 30000,
+  "gitdoc.autoPushDelay": 43200000,
+  "gitdoc.autoPush": "afterDelay",
+  "gitdoc.enabled": false,
+}

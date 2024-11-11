@@ -1,0 +1,99 @@
+---
+layout: page
+title: Uplink
+date:
+type:
+
+---
+
+<div class="container-lg">
+
+    <div class="leftcolumn">
+      {% include profile-card.html %}
+    </div>
+    {% assign items = site.uplink | sort: 'date' | reverse %}
+    {% assign posts_displayed = site.uplink.size | at_most: 10 %}
+    {% assign posts_total  = site.uplink.size %}
+
+    <div class="midcolumn">
+      <article>
+        <h1 class="title-text">Latest Uplinks</h1>
+        <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} entries</p>
+        <p style=" width: 100%; text-align: center"><a href="/pages/uplink-index/">View Index</a></p>
+      </article>
+<br>
+      {% for item in items %}
+
+    <main>
+      <article class="latest-post-border">
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+          {% if item.published == "draft" %}
+          <div class="draft-badge"><strong>Draft</strong></div>
+          {% endif %}
+          <div class="post-date"><strong>Created:</strong> {{ item.date | date: '%b %d, %Y' }}</div>
+          <!-- <div class="post-date"><strong>Modified:</strong> {{ item.last_modified_at | date: '%b %d, %Y' }}</div> -->
+        </div>
+        <a href="{{ item.url }}">
+        <div class="title">
+        <h1 class="title-text">{{item.title}}</h1>
+        </div>
+      </a>
+          {% for subtitle in item.subtitle %}
+          {% unless item.subtitle == "" %}
+        <div class = "subtitle">
+          <h2 class="subtitle-text">{{item.subtitle}}</h2>
+        </div>
+          {% endunless %}
+          {% endfor %}
+
+        <div class="notes-entry-container note">
+          <div class="content post-content">
+            {{ item.content | truncatewords: 7000 }}
+            {% if item.content.size > 7000 %}
+            <br>
+            <a href="{{ item.url }}"><strong>See more</strong></a>
+            {% endif %}
+          </div>
+          </div>
+          {% if item.backlinks.size > 0 %}
+          <hr>
+          <div class="backlinks-container">
+            <side>
+              <h1>Interlinked Pages</h1>
+                  {% for backlink in item.backlinks %}
+                  {% assign linked_doc = site.documents | where: "url", backlink.url | first %}
+                  {% unless linked_doc.url ==  baseurl %}
+                  <div class="backlink-box">
+                    <a href="{{backlink.url}}"><b>{{ linked_doc.title }}</b>
+                      <br>
+                      {{ linked_doc.collection | capitalize }}
+                    </a>
+                  </div>
+                {% endunless %}
+                {% endfor %}
+            </side>
+          </div>
+          {% endif %}
+  </article>
+
+  </main>
+
+
+<br>
+
+{% endfor %}
+</div>
+</div>
+
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>

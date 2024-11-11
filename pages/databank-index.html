@@ -1,0 +1,55 @@
+---
+layout: page
+title: Index - Databank
+date:
+type:
+
+---
+<main>
+<section class="container-lg">
+
+  <div class="leftcolumn">
+
+
+    {% include profile-card.html %}
+  </div>
+
+  <div class="midcolumn">
+  <div class="index-card">
+    <p style="float: right">Showing {{ site.databank.size }} items</p>
+    <h1 class="index-title">Index: Databank (By most recent)</h1>
+  <div class="index-grid wiki">
+  {% assign item_sort = site.databank | sort: 'date' | reverse %}
+  {% for item in item_sort %}
+    <a class="index-anchor" href="{{ item.url }}">
+      <div class="index-item wiki">
+        <span class="index-item-title">{{ item.title | truncate: 55 }}</span>
+       <span class="index-item-date">{{ item.date | date: "%d %b %Y" }}</span>
+       <!-- <p class="index-item-excerpt">{{- item.content | strip_html | remove: "Table of Contents:"| truncate: 100 | remove: item.title -}} </p> -->
+       <!-- Uncomment below for hex colour badge (only works if titles are hexes) -->
+       <!-- <span style="background-color: #{{ item.title | remove: '-'}};" class="hex-badge"></span> -->
+       <!-- also add the below to 'index-item-date' -->
+        <!-- style="float: none;"  -->
+      </div>
+          </a>
+       {% endfor %}
+
+    </div>
+  </div>
+  {% include license.html %}
+</div>
+
+</section>
+</main>
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>

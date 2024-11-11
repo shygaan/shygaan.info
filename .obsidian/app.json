@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "assets/attachments",
+  "newFileLocation": "current",
+  "promptDelete": false,
+  "spellcheck": true,
+  "livePreview": false,
+  "foldIndent": false,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true
+}

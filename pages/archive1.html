@@ -1,0 +1,29 @@
+---
+layout: page
+category: archive
+title: Archive1
+subtitle:
+date: 
+tags: 
+---
+<div class="index-card">
+    <h2 class="post-title">All Posts</h2>
+    
+    <!-- Collect all posts from each specific data type -->
+    {% assign all_posts = site.posts%}
+    <!-- Sort the combined list by date in descending order -->
+    {% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+    
+    <!-- Loop through each sorted post and display -->
+    {% for post in site %}
+      <a class="index-anchor" href="{{ post.url }}">
+        <div class="archive-item">
+          <span class="index-item-title">{{ post.title }}</span>
+          <br>
+          <span class="archive-item-date">{{ post.date | date: "%m/%d/%Y" }}</span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+  
+  

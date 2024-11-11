@@ -1,0 +1,91 @@
+---
+layout: page
+category: archive
+title: Archive
+subtitle:
+date: 
+tags: 
+---
+<main>
+  <section class="container-lg">
+    <div class="leftcolumn">    
+      {% include profile-card.html %}
+    </div>
+    
+    <div class="midcolumn">
+    <div class="archive-grid">
+      
+      <div class="index-card">
+        {% assign all_posts = site.echo %}
+      {% assign all_posts = all_posts | concat: site.uplink %}
+      {% assign all_posts = all_posts | concat: site.databank %}
+      {% assign all_posts = all_posts | concat: site.notes %}
+
+      <!-- Sort the combined list by date in descending order -->
+      {% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+
+      <!-- Display the sorted posts in a single table -->
+        <style>
+          table, tr, td {
+            border: none;
+            font-family: monospace;
+            padding: 0;
+          }
+        </style>
+        <table class="archive-table">
+          <tbody>
+            <tr>
+              <td>--------------------------------</td>
+              <td>-----------</td>
+              <td>-----</td>
+              <td>-----</td>
+              <td>----</td>
+            </tr>
+            <tr>
+              <td>POST</td>
+              <td>DATE</td>
+              <td>TYPE</td>
+              <td>WRDS</td>
+              <td>TAGS</td>
+            </tr>
+            <tr>
+              <td>--------------------------------</td>
+              <td>-----------</td>
+              <td>-----</td>
+              <td>-----</td>
+              <td>----</td>
+            </tr>
+            {% for post in sorted_posts %}
+              <tr>
+                <td><a class="index-anchor" href="{{ post.url }}">{{ post.title | truncate:30, "" | upcase }}</a></td>
+                <td>{{ post.date | date: "%m.%d.%Y" }}</td>
+                <td>{{ post.collection | truncate:4, "" | upcase}}</td>
+                <td>{{ post.content | strip_html | split: ' ' | size  }}</td>
+                <td>:: {{ post.tags | size }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      
+
+</div>
+</div>
+  </section>
+</main>
+
+
+
+          
+<script type="text/javascript">
+  // Hack: Replace page-link with "Page Title"
+  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+    a.innerText = a.title;
+  });
+  // Hack: Remove .md extension from wikilinks to get the html in jekyll
+  document.querySelectorAll("a").forEach(l => {
+    if (l.href.endsWith('.md')) {
+      l.href = l.href.substring(0, l.href.length-3)
+    }
+  })
+</script>

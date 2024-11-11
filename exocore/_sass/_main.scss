@@ -1,0 +1,1661 @@
+/* ### Theme: MyTheme ### */
+
+/* === Base Settings === */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Stalinist+One&display=swap');
+[data-theme="black"] {
+    font-family: "Inconsolata", "Iosevka Term SS03", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono", Monaco, Consolas, Courier, monospace;
+
+    --background: black;
+    --color-inner-divs: var(--background);
+    --color-items: var(--background);
+    --background-image: none;
+
+    /* --- Text Colors --- */
+    --color-text: white;
+    --color-subtext: white;
+    --color-code: pink;
+    --internal-links: orange;
+    --external-links: orange;
+    --invalid-links: var(--internal-links);
+    --color-primary: orange;
+    --color-secondary: chocolate;
+    --color-box-shadow: none;
+
+    /* --- Borders --- */
+    --article-border: 1px solid white;
+    --sidebar-border: 1px solid white;
+    --prev-next-border: 1px solid white;
+    --color-item-border: none;
+    --border-radius: 0px;
+
+    /* --- Embeds, Sidenote and Footnote Colors --- */
+    --embed-border: thin solid orange;
+    --color-embed-background: black;;
+    --color-embed-title: orange;
+    --color-embed-text: white;
+
+    --footnote-border: thin solid orange;
+    --color-footnote-background: black;
+    --color-footnote-text: white;
+
+    --sidenote-border: thin solid var(--color-text);
+    --color-sidenote-background: black;
+    --color-sidenote-text: var(--color-text);
+}
+
+[data-theme="white"] {
+    font-family: "Inconsolata", "Iosevka Term SS03", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono", Monaco, Consolas, Courier, monospace;
+    --background: white;
+    --color-inner-divs: var(--background);
+    --color-items: var(--background);
+    --background-image: none;
+
+    /* --- Text Colors --- */
+    --color-text: black;
+    --color-subtext: black;
+    --color-code: pink;
+    --internal-links: blue;
+
+    --external-links: blue;
+    --invalid-links: var(--internal-links);
+    --color-primary: blue;
+    --color-secondary: blue;
+    --color-box-shadow: none;
+
+    /* --- Borders --- */
+    --article-border: 1px dashed black;
+    --sidebar-border: 1px dashed black;
+    --prev-next-border: 1px dashed black;
+    --color-item-border: none;
+    --border-radius: 0px;
+
+    /* --- Embeds, Sidenote and Footnote Colors --- */
+    --embed-border: 1px dashed black;
+    --color-embed-background: white;
+    --color-embed-title: black;
+    --color-embed-text: black;
+
+    --footnote-border: 1px dashed black;
+    --color-footnote-background: white;
+    --color-footnote-text: black;
+
+    --sidenote-border: thin solid var(--color-text);
+    --color-sidenote-background: white;
+    --color-sidenote-text: var(--color-text);
+} /*
+[data-theme='blue'] {
+
+    h1,h2,h3,h4,h5,h6 {
+        line-height: 1.4;
+        padding-bottom: 0;
+        font-size:1.15em;
+        margin:1em;
+        margin-left:1em;
+        text-align:left
+      }
+
+      .title-text {
+          color: white;
+          font-weight:bold;
+          font-size:1.6em;
+          line-height:1em;
+          margin:0em;
+          text-align:center;
+          padding:1em;
+          padding-bottom:0.5em;
+          text-decoration:none !important;
+          text-shadow: 0px 0px 6px darkblue;
+          text-transform: uppercase
+      }
+
+      h1 {color:blue; font-weight:bold; text-decoration:underline; font-size: 1.3em;}
+      h2 {color:blue; font-weight:bold;}
+      h3 {color:blue; font-weight:normal; text-decoration:underline}
+      h4 {text-transform:none;font-weight:strong; font-size:1em;}
+      h5 {text-transform:none;font-weight:normal; text-decoration:underline; tfont-size:1em;}
+
+       --background: lightgrey;
+       --color-inner-divs: white;
+       --color-items: white;
+       --background-image: url("/assets/imgs/bgs/BGtile-3.png");
+
+       --color-text: black;
+       --color-subtext: black;
+       --color-code: #707070;
+       --internal-links: blue;
+       --external-links: blue;
+       --invalid-links: var(--internal-links);
+       --color-primary: darkblue;
+       --color-secondary: blue;
+       --color-box-shadow: none;
+
+
+       --article-border: 1px solid rgba(255, 255, 255, 0.6);
+       --sidebar-border: 1px solid rgba(255, 255, 255, 0.6);
+       --prev-next-border: 1px solid rgba(255, 255, 255, 0.6);
+       --color-item-border: none;
+       --border-radius: 15px;
+
+       --embed-border: medium double blue;
+       --color-embed-background: var(--color-inner-divs);
+       --color-embed-title: black;
+       --color-embed-text: black;
+
+       --footnote-border: thin solid blue;
+       --color-footnote-background: var(--color-inner-divs);
+       --color-footnote-text: blue;
+
+       --sidenote-border: thin solid var(--color-secondary);
+       --color-sidenote-background: #fffffa;
+       --color-sidenote-text: black;
+       article, .prev-next, .sidebar-card, .sidebar-link-box, .backlinks-container, .index-card {
+        background: rgba(255, 255, 255, 0.8);
+            border-radius: 16px;
+
+                box-shadow: 0 4px 30px rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+
+        }
+} */
+[data-theme="green"] {
+
+    /* --- Body Colors --- */
+    --background: #0f0f0f;
+    --color-inner-divs: #0f0f0f;
+    --color-items: #0f0f0f;
+    --background-image: url("/assets/imgs/bg-trees.png");
+    /* --- Text Colors --- */
+    --color-text: white;
+    --color-subtext: white;
+    --color-code: pink;
+    --internal-links: yellowgreen;
+    --external-links: yellowgreen;
+    --invalid-links: var(--internal-links);
+    --color-primary: yellowgreen;
+    --color-secondary: darkgreen;
+    --color-box-shadow: none;
+
+    /* --- Borders --- */
+    --article-border: 1px solid white;
+    --sidebar-border: 1px solid white;
+    --prev-next-border: 1px solid white;
+    --color-item-border: none;
+    --border-radius: 0px;
+
+    /* --- Embeds, Sidenote and Footnote Colors --- */
+    --embed-border: thin solid yellowgreen;
+    --color-embed-background: black;
+    --color-embed-title: yellowgreen;
+    --color-embed-text: white;
+
+    --footnote-border: thin solid yellowgreen;
+    --color-footnote-background: black;
+    --color-footnote-text: white;
+
+    --sidenote-border: thin solid var(--color-text);
+    --color-sidenote-background: black;
+    --color-sidenote-text: var(--color-text);
+}
+
+[data-theme="red"] {
+    /* --- Body Colors --- */
+
+    --background: #000000;
+    --color-inner-divs: black;
+    --color-items: black;
+    --background-image: url("/assets/imgs/bg-red.gif");
+
+    /* --- Text Colors --- */
+    --color-text: white;
+    --color-subtext: white;
+    --color-code: pink;
+    --internal-links: red;
+    --external-links: red;
+    --invalid-links: var(--internal-links);
+    --color-primary: red;
+    --color-secondary: firebrick;
+    --color-box-shadow: none;
+
+    /* --- Borders --- */
+    --article-border: 1px solid white;
+    --sidebar-border: 1px solid white;
+    --prev-next-border: 1px solid white;
+    --color-item-border: none;
+    --border-radius: 0px;
+
+    /* --- Embeds, Sidenote and Footnote Colors --- */
+    --embed-border: thin solid red;
+    --color-embed-background: black;
+    --color-embed-title: red;
+    --color-embed-text: white;
+
+    --footnote-border: thin solid red;
+    --color-footnote-background: black;
+    --color-footnote-text: white;
+
+    --sidenote-border: thin solid var(--color-text);
+    --color-sidenote-background: black;
+    --color-sidenote-text: var(--color-text);
+}
+
+[data-theme="beige"] {
+    /* --- Body Colors --- */
+
+    --background: #f9f5e7; /* Light beige background for a paper feel */
+    --color-inner-divs: #f9f5e7; /* White for inner divs to resemble paper */
+    --color-items: #f9f5e7; /* White for items */
+    --background-image: url(/assets/imgs/bg-sand.jpg); /* No background image */
+
+    /* --- Text Colors --- */
+    --color-text: #4b3c27; /* Dark brown for text */
+    --color-subtext: #7a6f63; /* Medium brown for subtext */
+    --color-code: #e19e00; /* Soft golden color for code */
+    --internal-links: #8c5a2b; /* Warm brown for internal links */
+    --external-links: #b57f5e; /* Light brown for external links */
+    --invalid-links: var(--internal-links); /* Same as internal links */
+    --color-primary: #8c5a2b; /* Warm brown for primary color */
+    --color-secondary: #d8c2a3; /* Light beige for secondary color */
+    --color-box-shadow: rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+
+    /* --- Borders --- */
+    --article-border: 1px solid #d0c6b6; /* Soft beige for article borders */
+    --sidebar-border: 1px solid #d0c6b6; /* Soft beige for sidebar borders */
+    --prev-next-border: none; /* No border for prev/next */
+    --color-item-border: none; /* No border for items */
+    --border-radius: 4px; /* Slightly rounded corners for a softer look */
+
+    /* --- Embeds, Sidenote and Footnote Colors --- */
+    --embed-border: thin solid #8c5a2b; /* Warm brown for embeds */
+    --color-embed-background: #ffffff; /* White background for embeds */
+    --color-embed-title: #8c5a2b; /* Warm brown for embed titles */
+    --color-embed-text: #4b3c27; /* Dark brown for embed text */
+
+    --footnote-border: thin solid #8c5a2b; /* Warm brown for footnote borders */
+    --color-footnote-background: #ffffff; /* White for footnotes */
+    --color-footnote-text: #4b3c27; /* Dark brown for footnote text */
+
+    --sidenote-border: thin solid var(--color-text); /* Warm brown for sidenote borders */
+    --color-sidenote-background: #ffffff; /* White for sidenotes */
+    --color-sidenote-text: var(--color-text); /* Dark brown for sidenote text */
+}
+/* VARIABLE PASSTHROUGH
+=============================*/
+/* --- Body Colors --- */
+$background: var(--background);
+$color-inner-divs: var(--color-inner-divs);
+$color-items: var(--color-items);
+$background-image: var(--background-image);
+
+/* --- Text Colors --- */
+$color-text: var(--color-text);
+$color-subtext: var(--color-subtext);
+$color-code: var(--color-code);
+$internal-links: var(--internal-links);
+$external-links: var(--external-links);
+$invalid-links: $internal-links;
+$color-primary: var(--color-primary);
+$color-secondary: var(--color-secondary);
+$color-box-shadow: var(--color-box-shadow);
+
+/* --- Borders --- */
+$article-border: var(--article-border);
+$sidebar-border: var(--sidebar-border);
+$prev-next-border: var(--prev-next-border);
+$color-item-border: var(--color-item-border);
+$border-radius: var(--border-radius);
+
+/* --- Embeds, Sidenote and Footnote Colors --- */
+$embed-border: var(--embed-border);
+$color-embed-background: var(--color-embed-background);
+$color-embed-title: var(--color-embed-title);
+$color-embed-text: var(--color-embed-text);
+
+$footnote-border: var(--footnote-border);
+$color-footnote-background: var(--color-footnote-background);
+$color-footnote-text: var(--color-footnote-text);
+
+$sidenote-border: var(--sidenote-border);
+$color-sidenote-background: var(--color-sidenote-background);
+$color-sidenote-text: var(--color-sidenote-text);
+
+/* --- Font Family --- */
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url("../assets/typefaces/cmunbi.woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url("../assets/typefaces/cmunbx.woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url("../assets/typefaces/cmunrm.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url("../assets/typefaces/cmunti.woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap");
+
+$font-family-sans-serif:
+    Helvetica,
+    Arial,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol;
+
+$font-family-serif: serif,"Scheherazade New";
+
+$font-family-monospace: "Iosevka Term SS03", "IBM Plex Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono",
+    Monaco, Consolas, Courier, monospace;
+
+* {
+    font-variant-ligatures: none;
+}
+
+html {
+    overflow: auto; /* or overflow: scroll; */
+    /* Optional for aesthetics */
+    scrollbar-width:none;
+}
+body {
+    font-family: $font-family-serif;
+    padding: 4vh 6vw;
+    overflow-x: hidden;
+    color: $color-text;
+    font-size: 1rem;
+    background-color: $background;
+    background-image: $background-image;
+}
+
+/* TITLES
+================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.4;
+    padding-bottom: 0;
+    font-size: 1.15em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+.title-text {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    margin: 0em;
+    line-height: 1em;
+    font-variant: small-caps;
+}
+
+.post-content {
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 1.3em;
+    }
+
+    h2 {
+        text-align: left;
+        font-weight: bold;
+        border-bottom: thin solid $color-secondary;
+        font-size: 1.5em;
+        font-variant: small-caps;
+    }
+
+    h3 {
+        text-transform: none;
+        font-weight: normal;
+        text-decoration: underline;
+        text-align: left;
+    }
+
+    h4 {
+        text-transform: none;
+        font-weight: normal;
+        font-size: 1em;
+        text-align: left;
+    }
+}
+
+ul {
+    list-style-type: circle;
+}
+
+hr {
+    margin: 1.5em;
+    border-color: $color-secondary;
+}
+
+/* CODE HIGHLIGHTING
+================================================== */
+
+code {
+    color: white;
+    background-color: blue;
+    font-family: $font-family-monospace;
+    font-size: 1em;
+}
+
+PRE {
+    margin-left: 1em;
+}
+
+/* LINKS
+================================================== */
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    background-color: $color-secondary;
+    border-bottom: thin solid white;
+    line-height: 2em;
+    font-weight: bold;
+}
+    .mobile-nav div {
+        z-index: 100;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .mobile-nav a {
+        color: white;
+
+    }
+    
+a {
+    color: $internal-links;
+    text-decoration: none;
+}
+a:hover,
+a[href^="#"]:hover {
+    color: $internal-links;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a.internal-link,
+a[href^="#"] {
+    color: $internal-links;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.notes-entry-container a.internal-link::before {
+    content: "»";
+}
+.invalid-link,
+.invalid-link-brackets {
+    color: $invalid-links;
+    cursor: help;
+}
+.web-link {
+    color: $external-links;
+}
+.web-link:hover {
+    cursor: alias;
+    color: $external-links;
+    text-decoration: underline;
+}
+.lastest-post-border h1,
+.title-text a {
+    color: $color-text;
+}
+.sidenote a,
+nav a {
+    font-weight: normal !important;
+}
+nav a {
+    color: blue !important;
+}
+.anchor a {
+    color: $color-text;
+    cursor: pointer;
+}
+.anchor a:hover {
+    color: $internal-links;
+    cursor: pointer;
+}
+
+.toc-container a {
+    cursor: pointer;
+}
+
+/* HEADER ANCHORS
+================================================== */
+
+.anchor {
+    visibility: hidden;
+    color: gray;
+    opacity: 0.7;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: monospace;
+}
+.anchor:hover {
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor {
+    visibility: visible;
+}
+
+/* PAGE FORMATTING
+================================================== */
+
+.title {
+    border: $color-item-border;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* BACKLINKS
+================================================== */
+
+.backlink-box {
+    // This is the box around the backlinks.
+    // add your own styling here if you want
+}
+
+.backlinks-excerpt {
+    font-size: 0.9em;
+    color: $color-subtext;
+}
+.backlinks-none {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#graph-wrapper svg {
+    border: thin solid white;
+}
+
+/* TABLE OF CONTENTS
+================================================== */
+
+.toc-container {
+    border: $article-border;
+    padding: 1em;
+    padding-bottom: 0em;
+    margin: 1em;
+    margin: 0 auto;
+    display: block;
+    max-width: 50%;
+    @media (max-width: 700px) {
+        max-width: 100%;
+    }
+}
+.toc-container h1 {
+    margin: 0em;
+}
+
+.toc-container ol li {
+    list-style-type: numeral;
+}
+
+.toc-container ol li li {
+    list-style-type: lower-latin;
+}
+
+/* FOOTER
+================================================== */
+
+.footer-nav {
+    margin: 1em;
+    font-size: 0.8em;
+    color: $color-text;
+    text-align: center;
+}
+
+license {
+    text-align: center;
+    font-family: $font-family-monospace;
+    font: 1.1em;
+}
+
+.license {
+    padding: 1em;
+    margin-top: 1em;
+    max-width: 28em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.license .internal-link:hover {
+    text-decoration: underline;
+    color: $color-text;
+}
+
+
+//--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--\\
+//--=--=--=--=--=--=--=--=*EXTRAS*=--=--=--=--=--=--=--=--\\
+//--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--\\
+
+/* STRUCTURE
+================================================== */
+
+.sidebar-card,
+.index-card,
+.archive-cardi {
+    margin-bottom: 1em;
+    float: left;
+    clear: both;
+    background-color: $background;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container-lg {
+    max-width: 70em;
+    margin: -1em auto;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftcolumn {
+    // float: left;
+    // width: 15%;
+    // margin: 0.5em;
+    // @media (max-width: 900px) {
+    //     width: 100%;
+    //     margin: auto;
+    // }
+    height: 100vh;
+    position: absolute;
+    width: 191px;
+}
+
+.midcolumn {
+    // float: left;
+    // width: 60%;
+    // margin: 0.5em;
+    // @media (max-width: 900px) {
+    //     width: 100%;
+    //     margin: auto;
+    // }
+    z-index: 50;
+
+    margin-left: 204px;
+    width: 700px;
+    position: absolute;
+        min-height: 100vh;
+}
+
+.midcolumn-small {
+    width: 40%;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+}
+
+article {
+    background-color: $background;
+    box-shadow: 1px 1px 0px $color-box-shadow;
+    margin-bottom: 0.5em;
+    @media (max-width: 900px) {
+        margin-left: 0.5em;
+    }
+}
+
+
+.related h1 {
+    padding: 0.5em;
+    margin: auto;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.related h2 {
+    margin: auto;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+}
+.related ul {
+    text-align: center; /* Center the text */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    list-style-type: none; /* Ensure no bullets */
+}
+
+.related ul li {
+    display: inline-block; /* Make list items inline-block */
+    margin: 0.1em; /* Maintain your existing margin */
+    padding: 0.5em 0; /* Add vertical padding as needed */
+    text-align: center; /* Center text */
+}
+
+
+/* PROFILE
+================================================== */
+
+
+.related h2 a {
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+sidebar-card a:hover {
+    color: $color-text;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 55px;
+    margin-bottom: 0.5em;
+
+    @media (max-width: 900px) {
+        float: 100%;
+        margin: auto;
+    }
+}
+
+
+.profile .sidebar-link-box h2{
+    // margin-bottom: 0.5em;
+    // font-weight: bold;
+    // text-align: center;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+        font-variant: small-caps;
+    
+}
+
+.user-name {
+    text-decoration: underline;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.user-name:hover{
+    color: $internal-links;
+}
+
+.sidebar-link-box,
+.index-grid {
+    display: grid;
+    grid-template-columns: auto;
+    border: $color-item-border;
+    box-shadow: 1px 1px 0px $color-box-shadow;
+    background-color: $color-inner-divs;
+    margin-bottom: 0.5em;
+    max-width: 100%;
+    padding: 0.5em;
+    font-size: 0.9em;
+
+    @media (max-width: 900px) {
+        margin: auto;
+        display: block;
+    }
+}
+
+.silent-link {
+    color: $color-text;
+}
+
+/* HOME
+=============*/
+
+.home-card {
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    background-color: $background;
+    border: $article-border;
+}
+
+.container-sml {
+    width: 400px;
+    margin: auto;
+}
+
+.home-icon {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    padding: 5px;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+/* POST CONTENT
+(use this to style the formatting of your posts)
+================================================== */
+.post-content {
+    line-height: 1.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+}
+
+.post-content img {
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+    max-height: 75vh;
+    border-radius: $border-radius;
+    border: 1px solid $color-text;
+}
+
+.post-content blockquote {
+    margin: 0;
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.notes-entry-container {
+    border: $color-item-border;
+    padding: 1em;
+    padding-top: 0em;
+}
+
+// image captions
+img + em {
+    display: block;
+    color: $internal-links;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    margin-top: -1.5em;
+}
+
+/* BACKLINKS
+================================================== */
+
+.backlinks-container {
+    max-width: 28em;
+    margin: 0 auto;
+    background-color: $color-inner-divs;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.backlinks-container h1 {
+    margin-bottom: 1em;
+}
+
+.backlink-box {
+    padding: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+    background-color: $color-items;
+    border: 1px solid $color-primary;
+    border-radius: $border-radius;
+    line-height: 1em;
+}
+
+/* EMBEDDED NOTES
+================================================== */
+
+.embed-wrapper {
+    border: $embed-border;
+    padding: 1em;
+    background-color: $color-embed-background;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.embed-title {
+    display: none;
+}
+
+.embed-content {
+    color: $color-embed-text;
+}
+.embed-content p {
+    color: $color-embed-text;
+}
+
+/* SIDENOTES
+================================================== */
+
+.sidenote {
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 1em;
+    font-style: italic;
+    font-size: 0.8em;
+    line-height: 1.1em;
+    box-sizing: border-box;
+    background-color: $color-sidenote-background;
+    border: $sidenote-border;
+    color: $color-text;
+}
+
+.sidenote::after {
+  content: "";
+    border-top: thin solid white;   
+    display: block;
+    float: right;
+    margin: auto;
+    z-index: -2;
+    width: 500px;
+    position: absolute;
+    top: 0.5em;
+    right: 100%;
+    
+}
+
+.sidenote-hover {
+    color: green;
+    z-index: 1;
+    box-sizing: border-box;
+    color: $internal-links;
+    
+}
+
+.sidenote:hover {
+    z-index: 1;
+    color: $color-text;
+    border-color: $color-primary;
+}
+
+.footnote web-link {
+    position: relative;
+}
+.bigger:after {
+    content: "";
+    padding: 50px;
+    position: absolute;
+    left: -25px;
+    top: -25px;
+}
+
+/* FOOTNOTES
+================================================== */
+
+.footnotes {
+    border: $footnote-border;
+    padding: 1em 0;
+    background-color: $color-footnote-background;
+    color: $color-footnote-text;
+}
+
+/* INDEX
+================================================== */
+
+.index-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: left;
+    grid-gap: flex;
+    padding: 1em;
+
+    @media (max-width: 1000px) {
+        grid-template-columns: auto;
+    }
+}
+
+.index-grid.wiki,
+.notes {
+    grid-template-columns: 100%;
+}
+.index-anchor {
+    text-decoration: none !important;
+}
+.index-item,
+.archive-item,
+.library-item {
+    width: 95%;
+    margin: auto;
+    background-color: $color-items;
+    text-align: left;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: thin solid $color-primary;
+    box-sizing: border-box;
+
+    &:hover {
+        box-shadow: 0px 0px 0px 1px $color-primary;
+    }
+}
+
+.index-item {
+    max-height: 11em;
+    overflow: hidden;
+    line-height: 1.9em;
+}
+
+.index-item-title,
+.library-item-title {
+    font-weight: bold;
+    text-decoration: underline;
+    color: $color-text;
+    overflow: hidden;
+}
+
+.index-item-date,
+.library-item-filetype {
+    font-weight: normal;
+    float: right;
+    font-style: italic;
+}
+
+.index-item-topic {
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.index-item-excerpt {
+    font-weight: normal;
+    height: 6em;
+    width: 85%;
+    overflow: hidden;
+    float: left;
+}
+
+/* ARCHIVE
+================================================== */
+
+.archive-grid {
+    display: grid;
+    grid-gap: 0.5em;
+    //padding: 1em;
+    margin: auto;
+}
+
+.archive-card {
+    background-color: $color-inner-divs;
+    width: 100%;
+    margin: auto;
+}
+
+/* LIBRARY
+================================================== */
+
+.library-item {
+    display: grid;
+    grid-auto-columns: 100% 10%;
+}
+
+.draft-badge {
+    padding: 0.5em;
+    width: fit-content;
+    // margin: 0.5em 0.5em auto auto;
+    // position: absolute;
+    float: right;
+    background-color: $color-primary;
+    color: white;
+    font-weight: normal;
+}
+
+.post-date {
+    padding: 0.5em;
+    // margin: 0.5em auto auto 0.5em;
+    width: fit-content;
+    // margin: auto;
+    // position: absolute;
+}
+
+.library-grid-container {
+    width: 90%;
+    margin: auto;
+}
+
+.library-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
+.library-image {
+    background: white;
+}
+
+.library-image-container {
+    height: 7em;
+    margin: 4%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* TAG PAGE
+================================================== */
+.tags h1.silent-link {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tags.sidebar-link-box {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tile h1,
+.home-link-button h1 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.tile:hover,
+home-link-button:hover {
+    background-color: $color-items;
+}
+
+.tile:target {
+    border: medium solid $color-primary;
+}
+
+.tile,
+.home-link-button {
+    background-color: $color-inner-divs;
+    border: thin solid $color-text;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    &:hover {
+        background-color: $color-items;
+    }
+}
+
+.tag-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* PREVIOUS / NEXT BUTTONS
+================================================== */
+
+.prev-next {
+    border: $prev-next-border;
+    margin-bottom: 0.5em;
+    background-color: $background;
+    //    display: grid;
+    //    grid-template-columns: 10% 40% 40% 10%;
+    width: 100%;
+    padding: 1em;
+    height: 3.5em;
+    border-bottom: $prev-next-border;
+}
+
+.prev-next a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.prev-next a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+.title-text {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.subtitle-text {
+    width: 100%;
+    text-align: center !important;
+    margin: 0.5em auto;
+    font-weight: normal;
+}
+
+/* COLOR BADGES (ZETTELKASTEN HEX)
+================================================== */
+
+.hex-badge {
+    width: 2em;
+    height: 2em;
+    float: right;
+    border: 2px solid white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 1px black;
+    margin-top: -1em;
+}
+
+/* NETWORK GRAPH (BACKLINK VISUAL REPRESENTATION)
+================================================== */
+
+.network-graph-container {
+    clear: both;
+    margin-top: 1em;
+    display: block;
+    background: $background;
+    border: $article-border;
+    padding: 2em;
+    height: 45em;
+
+    & h1 {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+
+.links line {
+    stroke: $color-primary;
+    opacity: 0.5;
+}
+
+.nodes circle {
+    cursor: pointer;
+    fill: $color-primary;
+    transition: all 0.15s ease-out;
+}
+
+.text text {
+    cursor: pointer;
+    fill: $color-subtext;
+}
+
+.nodes [active],
+.text [active] {
+    cursor: pointer;
+    fill: $color-primary;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.inactive {
+    opacity: 0.4;
+    transition: all 0.15s ease-out;
+}
+
+#graph-wrapper svg {
+    background: $color-inner-divs;
+    height: 40em;
+}
+
+/* LISTS AND TABLES
+================================================== */
+
+ol li {
+    list-style-type: decimal;
+}
+
+ol li li {
+    list-style-type: lower-alpha;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ul li li {
+    list-style-type: square;
+}
+
+table,
+tr,
+td {
+    border: thin solid;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: auto;
+    background-color: $color-inner-divs;
+}
+
+th {
+    border: 1px solid white; /* Adds a border around each cell */
+    text-align: left;
+    padding: 4px;
+}
+/* BORDERS
+================================================== */
+
+// Border around your posts
+article,
+.index-card {
+    border: $article-border;
+    box-sizing: border-box;
+}
+
+// Border around the items in the sidebar
+.sidebar-card,
+.border {
+    border: $sidebar-border;
+    box-sizing: border-box;
+}
+
+// Border around the next/previous buttons above and below your posts
+.prev-next {
+    border: $prev-next-border;
+    box-sizing: border-box;
+}
+
+/* GRAPHVIZ PARSER -- GRAPH VISUALISATION TOOL
+================================================== */
+
+.graphviz-wrapper {
+    padding: 0px;
+}
+
+.graphviz-wrapper svg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* GENERAL PURPOSE CLASSES
+================================================== */
+
+// use syntax: {:.classname} within markdown to apply a class— these general classes might come in handy.
+
+/* -=Text=- */
+
+.right-aside {
+    float: right;
+    border: $embed-border;
+    padding: 1.2em;
+    width: 40%;
+    margin-left: 2em;
+    font-size: 0.9em;
+}
+
+.left-aside {
+    float: left;
+    border: $embed-border;
+    padding: 1.2em;
+    width: 40%;
+    margin-left: 2em;
+    font-size: 0.9em;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* -=Images=- */
+
+.right {
+    float: right;
+    width: 50%;
+    padding: 1em;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+.border {
+    border: thin solid black;
+}
+
+.shadow {
+    box-shadow: 0px 0px 15px black;
+}
+
+.glow {
+    box-shadow: 0px 0px 15px white;
+}
+
+// Theme Toggle Button
+
+/* Floating theme toggle button styles */
+.theme-toggle-button {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px 15px;
+    background-color: transparent; /* Bootstrap primary color */
+    border: none;
+    color: $internal-links;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 60; /* Ensures it's above other content */
+      width: 82px;
+      height: 26px;
+
+      @media (max-width: 1240px) {
+        right: initial;
+        left: 10px;
+        top: 10px;
+        
+    }
+    @media (max-width: 875px) {
+        top:30px;
+        position: relative;
+        float: right;
+
+    }
+    transition: font-size 0.1s;
+
+  }
+.theme-toggle-button:hover {
+    transition: font-size 0.1s;
+
+    font-size: 125%;
+}
+
+// Player
+//=====================
+/* (A) MATERIAL ICONS */
+.aWrap .svg-inline--fa {
+    color: $color-primary !important;
+}
+
+/* (B) WRAPPER */
+.aWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* allow buttons to wrap into another row on small screens */
+    /* flex-wrap: wrap; */
+    width: fit-content;
+    padding: 5px 30px;
+    margin: 0px 0;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.aWrap,
+.aWrap * {
+    box-sizing: border-box;
+}
+
+/* (C) PLAY/PAUSE BUTTON */
+.aPlay {
+    padding: 0;
+    margin: 0 0 3px;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    color: $color-primary;
+    width: 10px;
+}
+
+/* (D) TIME */
+.aCron {
+    font-size: 14px;
+    color: color-primary;
+    margin: 0 10px;
+}
+
+/* (E) RANGE SLIDERS */
+/* (E1) HIDE DEFAULT */
+.aWrap input[type="range"] {
+    appearance: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background: 0;
+}
+
+.range {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.range input {
+    position: relative;
+    z-index: 1;
+}
+
+.range .change-range {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 5px;
+    width: 0px;
+    background-color: $color-primary;
+    border-radius: 0px 0 0 0px;
+}
+
+.under-ranger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #dbdbdb;
+    border-radius: 00px;
+}
+
+.aWrap input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+}
+
+/* (E2) CUSTOM SLIDER TRACK */
+.aWrap input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    height: 5px;
+    border-radius: 0px;
+}
+
+/* (E3) CUSTOM SLIDER BUTTON */
+.aWrap input[type="range"]::-webkit-slider-thumb {
+    width: 11px;
+    height: 11px;
+    border: 0;
+    background: $color-primary;
+    position: relative;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+.aWrap input[type="range"]::-moz-range-thumb {
+    width: 11px;
+    height: 11px;
+    border: 0;
+    background: $color-primary;
+    position: relative;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+@media (max-width: 875px) {
+    .leftcolumn {
+        display: none;
+    }
+    .midcolumn {
+        border: none;
+        width: 100vw;
+        margin: 0px;
+        margin-top: 2em;
+        position: relative;
+
+    }
+    .sidebar-card {
+        display: none;
+    }
+    .related {
+        display: none;
+    }
+    .notes-entry-container{
+        padding: minmax( 2em, 1%);
+    }
+    .container-lg {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 2em;;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+    article {
+        margin: 0;
+    }
+
+    body {
+        padding: 0;
+        background-image: none;
+    }
+    .index-card {
+        border: none;
+    }
+    .midcolumn-borderless {
+        border: none;
+        width: 100vw;
+        margin: 0px;
+        margin-top: 2em;
+        }
+
+
+        .license {
+            display: none;
+        }
+
+    }

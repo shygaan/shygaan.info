@@ -1,0 +1,58 @@
+---
+---
+
+//This stylesheet normalizes formatting across browsers:
+@import "../_sass/normalize";
+
+//This one handles code highlighting:
+@import "../_sass/code";
+
+
+//Uncomment one of the following lines to choose a theme:
+// @import "../_sass/yotsuba";
+// @import "../_sass/edith";
+// @import "../_sass/web1";
+// @import "../_sass/vellum";
+// @import "../_sass/paper";
+// @import "../_sass/heaven";
+@import "../_sass/main";
+//@import "../_sass/gemini"; // Doesn't work yet
+
+
+@import "../_sass/responsive";
+
+
+
+/*-----------------------------
+
+ CUSTOM BACKGROUND
+Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
+
+
+$bg-color: theme; /* <-- leave default theme BG color */
+
+$bg-image: theme; /* <-- leave default theme BG image */
+
+
+//$bg-image: url(assets/imgs/BGs/bgtile-1.png);
+
+//$bg-image: url(assets/imgs/BGs/bgtile-2.png);
+
+//$bg-image: url(assets/imgs/BGs/bgtile-3.png);
+
+//$bg-image: url(assets/imgs/BGs/bgtile-4.png);
+
+//$bg-image: url(assets/imgs/BGs/bgtile-5.png);
+
+/*There are 30 sample background tiles to choose from in assets > imgs > BGs*/
+
+
+/*-----------------------------*/
+
+body {
+
+    background-color: $bg-color;
+
+    background-image: $bg-image;
+}
+
