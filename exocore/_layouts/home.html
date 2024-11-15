@@ -14,7 +14,7 @@ layout: default
       <h1 class="title-text">{{site.data.user.welcome_header}}</h1>
       </div>
         {% for welcome_subtitle in site.data.user.welcome_subtitle %}
-        {% unless page.welcome_subtitle == "" %}  
+        {% unless page.welcome_subtitle == "" %}
       <div class = "subtitle">
         <h2 class="subtitle-text">{{ site.data.user.welcome_subtitle }}</h2>
       </div>
@@ -23,7 +23,7 @@ layout: default
 
          {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=1 h_max=4 %}
         </div>
-        <!-- <hr> -->
+        <!-- <hr style="margin: 1.5em;"> -->
       <div class="notes-entry-container note">
         <div class="content post-content">
 

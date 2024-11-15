@@ -27,6 +27,9 @@ jobs:
       - name: Install Bundler
         run: gem install bundler -v 2.4.22
 
+      # Install Graphviz (for the dot command)
+      - name: Install Graphviz
+        run: sudo apt-get install -y graphviz
 
       # Install dependencies
       - name: Install dependencies

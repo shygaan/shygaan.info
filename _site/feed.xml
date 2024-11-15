@@ -1,1 +1,1136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-09T17:28:30-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shygaan Khalili</title><subtitle>Writings of a carbon-based primitive in a silicon world</subtitle></feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0xA79D2E</title>
+    <description></description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+
+
+  
+    <item>
+      <title>I Remember</title>
+      <description>&lt;p&gt;I remember when I was 16 and finally came of age in 2150 B.C. My friend Manishtushu and I went out to Urak by horse for three days. Then some guy named Naram-Sim was on a stage, and before performing, said “𒀭𒈾𒊏𒄠𒀭𒂗𒍪 𒈠𒀭𒅖𒌅𒋢𒊬𒊒𒄀”, which really touched me. Then he sang a song. My friend, Manishtushu, was killed in battle. Those were the days.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/i-remember</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/i-remember</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Predictive Processing and the Free Energy Principle</title>
+      <description>&lt;h2 id=&quot;terms&quot;&gt;Terms:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Active inference&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Predictive_coding&quot; class=&quot;web-link&quot;&gt;Predictive Processing/Predictive Coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Free_energy_principle&quot; class=&quot;web-link&quot;&gt;Free Energy Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_blanket&quot; class=&quot;web-link&quot;&gt;Markov Blanket&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Theory_of_reasoned_action&quot; class=&quot;web-link&quot;&gt;Model of Action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;classical-model-of-action&quot;&gt;Classical model of action:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Optimal action depends on state of the world&lt;/li&gt;
+  &lt;li&gt;Therefore, first step of action is to (1) form a belief (analyse surroundings/prospects)&lt;/li&gt;
+  &lt;li&gt;(2) imagine a value function of next state brought about by action&lt;/li&gt;
+  &lt;li&gt;(3) optimise action that maximises value of the next state&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;model-of-action&quot;&gt;Model of action&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Classical model doesn’t work when the best next thing to do is to search for/resolve uncertainty&lt;/li&gt;
+  &lt;li&gt;Optimal action depends on beliefs about the world, and subsequent action&lt;/li&gt;
+  &lt;li&gt;Further, it’s a function of the order in which you interrogate the world&lt;/li&gt;
+  &lt;li&gt;Therefore the functional (function of a function) to be optimised is a function of beliefs&lt;/li&gt;
+  &lt;li&gt;Optimal action therefore is optimising sequences or policies of actions&lt;/li&gt;
+  &lt;li&gt;To be optimised: a function of a belief, integrated over time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;free-energy-principle&quot;&gt;Free Energy Principle:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The goal of a self-organising (eg biological) system is to minimise prediction error (surprise), also called ‘free energy’, by forming continually-updated beliefs/inferences about the world from which to form policies of action&lt;/li&gt;
+  &lt;li&gt;Friston considers this an organising principle of all life and intelligence&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To be alive (to be a system that resists disorder and dissolution) is to act in ways that reduce the gulf between your expectations and your sensory inputs (AKA, to minimise free energy)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If a prototypical agent, or a ‘good agent’ minimises free energy (thereby minimising ‘surprise’), they must believe that the actions they take minimised expected free energy&lt;/li&gt;
+  &lt;li&gt;expected free energy associated with a policy of action is minimised&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markov-blanket&quot;&gt;Markov Blanket:&lt;/h2&gt;
+&lt;p&gt;The Markov Blanket is a concept in machine learning which is essentially a shield that separates one set of variables from others in a layered, hierarchical system. The blanket defines the boundaries of a given system. That is, in cognition, a cognitive version of a cell membrane shielding states inside the blanket from states outside. This is the schema by which surprise is minimised— the Markov blanket is a set of variables sufficiently complete that another random variable can be inferred from it . If a Markov blanket is minimal (parsimonious) (cannot drop any variable without losing information), it is called a Markov boundary.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/predictive-processing-and-the-free-energy-principle</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/predictive-processing-and-the-free-energy-principle</guid>
+    </item>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <item>
+      <title>Transliteration</title>
+      <description>&lt;style&gt;
+  .index-card {
+    text-align: center;
+  }
+
+  table thead {
+    border: none;
+  }
+&lt;/style&gt;
+
+&lt;h2 id=&quot;basic-letters&quot;&gt;Basic Letters&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Arabic Symbol&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Arabic Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Latin Symbol&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Latin Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Closest English Equivalent&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ا&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;أَلِف&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;a / ā&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾalif&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;c&lt;strong&gt;a&lt;/strong&gt;t&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ب&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;بَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;bāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;b&lt;/strong&gt;arn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ت&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;تَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;t&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;tāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;t&lt;/strong&gt;ick&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ث&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ثَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;th&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;thāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;th&lt;/strong&gt;orn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ج&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;جِيم&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;j&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;jīm&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;g&lt;/strong&gt;em&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ح&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;حَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ḥ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ḥāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent [pharyngeal h]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;خ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;خَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;x&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;xāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Scottish lo&lt;strong&gt;ch&lt;/strong&gt;
+&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;د&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;دَال&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;d&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;dāl&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;d&lt;/strong&gt;eer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ذ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ذَال&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;dh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;dhāl&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;th&lt;/strong&gt;ere&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ر&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;رَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;r&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;rāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Scottish &lt;strong&gt;r&lt;/strong&gt;ight&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ز&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;زَاي&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;z&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;zāy&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;z&lt;/strong&gt;ebra&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;س&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;سِين&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;s&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;sīn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;s&lt;/strong&gt;phinx&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ش&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;شِين&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;shīn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;ch&lt;/strong&gt;ef&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ص&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;صَاد&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ṣ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ṣād&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent [emphatic s]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ض&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ضَاد&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ḍ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ḍād&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent [emphatic d]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ط&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;طَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ṭ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ṭāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent [emphatic t]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ظ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ظَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ẓ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ẓāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent [emphatic &lt;strong&gt;th&lt;/strong&gt;at]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ع&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;عَيْن&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʿ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʿayn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;غ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;غَيْن&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;gh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ghayn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent [French &lt;strong&gt;r&lt;/strong&gt;ouge]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ف&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;فَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;f&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;fāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;f&lt;/strong&gt;ear&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ق&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;قَاف&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;q&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;qāf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no equivalent&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ك&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;كَاف&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;k&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;kāf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;k&lt;/strong&gt;ill&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ل&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;لاَم&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;l&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lām&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;l&lt;/strong&gt;amp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;م&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;مِيم&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;mīm&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;m&lt;/strong&gt;oth&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ن&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;نُون&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;n&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;nūn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;n&lt;/strong&gt;oon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ﻩ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;h&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;h&lt;/strong&gt;eal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;و&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;وَاو&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;w / ū&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;wāw&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;w&lt;/strong&gt;arp / t&lt;strong&gt;oo&lt;/strong&gt;l&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ي&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;يَاء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;y / ī&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yāʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;
+&lt;strong&gt;y&lt;/strong&gt;es / r&lt;strong&gt;ee&lt;/strong&gt;l&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزة&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamzah&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;glottal stop [uh&lt;strong&gt;-&lt;/strong&gt;oh]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;hamzah-forms&quot;&gt;Hamzah Forms&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Arabic Symbol&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Arabic Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Latin Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Latin Symbol&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;أ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزَة عَلَى الأَلِفْ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamzah ʿalā al-ʾalif&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;إ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزَة تَحْت الأَلِفْ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamza taḥt al-ʾalif&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ء&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزَة عَلَى السَّطْر&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamzah ʿalā al-saṭr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ؤ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزَة عَلَى الوَاو&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamzah ʿalā al-wāw&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ئ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزَة عَلَى نَبْرَة [medial]&lt;br&gt;هَمْزَة عَلَى اليَاء [final]&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamzah ʿalā nabra [medial]&lt;br&gt;hamzah ʿalā al-yāʾ [final]&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;آ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;هَمْزَةْ المد&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hamzatu al-madd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ā&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;modified-letters&quot;&gt;Modified Letters&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Arabic Symbol&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Arabic Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Latin Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Latin Symbol&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ة&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;تَاءْ مَرْبُوطَة&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;tāʾ marbūṭah&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;h / t&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ى&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;أَلِفْ مَقْصُورَة&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾalif maqṣūrah&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ā&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ٱ / ا&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;أَلِفُ ٱلْوَصْلِ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ʾalif al-waṣl&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;silent&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/transliteration</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/transliteration</guid>
+    </item>
+  
+
+  
+
+  
+    <item>
+      <title>The Three Components of Race</title>
+      <description>&lt;h2 id=&quot;foundation---the-race-of-the-body&quot;&gt;Foundation - The Race of the Body&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-phenotypical-manifestation-of-the-collective&quot;&gt;The Phenotypical Manifestation of the Collective&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;Race of the Body&lt;/strong&gt;, in its essence, is the immediate and material expression of a people, the visible trace of their lineage upon the surface of the world. It is through the corporeal form that the race first makes itself known. It is in the skin, the eye, the hair, and the posture that one encounters the signs of a deeper unity – an inherited language of flesh that betrays the long history of a people’s sojourn upon the Earth.&lt;/p&gt;
+
+&lt;p&gt;The corporeal foundation is not an incidental fact; it is the basis upon which the metaphysical edifice of race is built. The physical traits of the Race of the Body are not arbitrary, but shaped by the exigencies of environment, geography, and time.&lt;/p&gt;
+
+&lt;p&gt;The climate, the land, and the conditions of survival have all etched their mark upon the human form, such that the body becomes both a product of and a response to the natural world. It is thus that the body, in its diverse appearances, forms the necessary precondition for the existence of the collective – the outward sign of the group’s historical and environmental conditioning.&lt;/p&gt;
+
+&lt;p&gt;Let us not mistake the physical for the final. The body is but the first veil behind which the deeper, more abstract qualities of a people remain hidden. The Race of the Body must be understood as the condition of possibility for the Race of the Soul.&lt;/p&gt;
+
+&lt;h2 id=&quot;actualization---the-race-of-the-soul&quot;&gt;Actualization - The Race of the Soul&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-internal-manifestation-of-the-collective-will&quot;&gt;The Internal Manifestation of the Collective Will&lt;/h3&gt;
+
+&lt;p&gt;The Race of the Soul is the realization of the inner essence of a people, the psychic and mental substratum that gives rise to their shared ethos. It is here that the body gives way to the mind, and the people’s collective consciousness is revealed. 
+This component of race cannot be perceived through the senses, yet it governs the thoughts, the behaviors, and the ideals that animate the race as a whole. It is in the soul that the peculiarities of a people’s character, their intellectual tendencies, and their social inclinations are to be found.&lt;/p&gt;
+
+&lt;p&gt;The Race of the Soul is a collective spiritual organism, formed through the interaction of individuals within a cultural milieu over time. It is shaped by shared experiences, traditions, and the cumulative wisdom of generations. In this, the Race of the Soul is not merely an individual affair, but a communal one – an overarching mind that finds its expression in the art, the philosophy, the religion, and the politics of the people. It is through these expressions that the Race of the Soul unites the individuals of the group into a coherent whole.&lt;/p&gt;
+
+&lt;p&gt;Thus, the Race of the Soul is a people’s mental and emotional inheritance, made manifest in their daily lives. It is the means by which the race transcends the body, existing as a living, thinking force in the world. It is the soul of the race that inspires its creativity, its moral compass, and its capacity for both destruction and creation. And as it grows, so too does the collective spirit of the people, cementing their identity as a metaphysical badge that cannot be severed from the soil of their origins.&lt;/p&gt;
+
+&lt;h2 id=&quot;realization---the-race-of-the-spirit&quot;&gt;Realization - The Race of the Spirit&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-transcendental-force-drawn-into-the-blood&quot;&gt;The Transcendental Force Drawn into the Blood&lt;/h3&gt;
+
+&lt;p&gt;Race of the Spirit is the most elusive and profound of the three components. If the Race of the Body is the foundation and the Race of the Soul the manifestation, the Race of the Spirit is the very source of the race’s vitality, its spiritual energy. It is not of this world; existing outside the bounds of the physical and psychological realms, beyond the reach of empirical investigation. It is the transcendental force that binds the people to the divine, to the cosmic order, and to the eternal laws of creation.&lt;/p&gt;
+
+&lt;p&gt;The Race of the Spirit must be &lt;em&gt;realized&lt;/em&gt;, not simply inherited. This spirit is imbued into the bloodline through sacred rites, initiatory practices, and spiritual disciplines that are intended to fortify the connection between the people and the divine. Just as the body is cultivated through the conditions of nature, and the soul through the culture and customs of the race, so too must the Race of the Spirit be cultivated through sacred practices that draw it forth into the life of the people.&lt;/p&gt;
+
+&lt;p&gt;It is through these rites and spiritual exercises that the Race of the Spirit comes into its own: the Race of the Body and Soul behave as a pylon between the individual and the cosmic, marking the moment where the bloodline is made sacred. This process is not without its guardians; the spiritual elite of a people –  be they the Brahmins of India, the Patricians of Rome, or the Samurai of Japan – act as the custodians of this force, channeling and protecting the bond between the people and the divinity of their heritage.&lt;/p&gt;
+
+&lt;p&gt;The Race of the Spirit enters the blood and becomes inseparable from the people themselves, providing them with purpose, destiny, and ascendant meaning. This is what allows the race to rise above physical existence and mental constructs and become a living expression of Divine Will upon the Earth.&lt;/p&gt;
+
+&lt;p&gt;Thus, the Race of the Spirit completes the triad; it reveals the nature of a people not as an isolated entity, but as a participant in the greater order of eternal creation and destruction.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 21 May 2023 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/the-three-components-of-race</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/the-three-components-of-race</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Action Policy Arbitrage</title>
+      <description>&lt;h2 id=&quot;1-preamble&quot;&gt;1. Preamble&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;. The state of a person’s life is the result of an accumulation of decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;. The decisions that a person makes form a pattern.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;. From this pattern it is possible to derive an emergent policy of action (&lt;strong&gt;Action Policy&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D&lt;/strong&gt;. An &lt;strong&gt;Action Policy&lt;/strong&gt; is the ruleset by which actions are generated from beliefs about the person’s environment: &lt;em&gt;“Given X facts, make Y action”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;E&lt;/strong&gt;. Notionally, an &lt;strong&gt;Action Policy&lt;/strong&gt; is an algorithm for decision-making given incomplete knowledge about an environment (ie. an &lt;strong&gt;Action Policy&lt;/strong&gt; is as an approximate algorithmic solution to a Partially Observable Markov Decision Process).&lt;/p&gt;
+
+&lt;h2 id=&quot;2-passive-amendment-to-the-action-policy&quot;&gt;2. Passive Amendment to the Action Policy&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;. An &lt;strong&gt;Action Policy&lt;/strong&gt; is subconsciously and continuously revised and updated through:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learning&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Divine Experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Trauma&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;. In general, revisions to the &lt;strong&gt;Action Policy&lt;/strong&gt; stimulated by &lt;strong&gt;Learning&lt;/strong&gt; and &lt;strong&gt;Divine Experience&lt;/strong&gt; are edifying, and lead to greater &lt;strong&gt;Agency&lt;/strong&gt; and &lt;strong&gt;Victory&lt;/strong&gt;, while revisions resulting from &lt;strong&gt;Trauma&lt;/strong&gt; are regressive, leading to risk-aversion and &lt;strong&gt;Failure&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The shrewd pupil is wary of &lt;strong&gt;Trauma&lt;/strong&gt; disguised as &lt;strong&gt;Learning&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The pupil also acknowledges that &lt;strong&gt;Divine Experience&lt;/strong&gt; may be traumatic, but still be edifying.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The pupil knows that &lt;strong&gt;Unbeautiful Experience&lt;/strong&gt; is traumatic&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;. All non-divine experience is metabolised as either &lt;strong&gt;Learning&lt;/strong&gt; or &lt;strong&gt;Trauma&lt;/strong&gt;, or it is &lt;strong&gt;Forgotten&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-effortful-amendment-to-the-action-policy&quot;&gt;3. Effortful Amendment to the Action Policy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;. An &lt;strong&gt;Action Policy&lt;/strong&gt; can also be updated effortfully, through &lt;strong&gt;Discipline&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;. &lt;strong&gt;Discipline&lt;/strong&gt; competes with the &lt;strong&gt;Inertia of an Action Policy&lt;/strong&gt;, which leaves it resistant to change. The prospect of &lt;strong&gt;Disciplinary Victory&lt;/strong&gt; over &lt;strong&gt;Action Policy Inertia&lt;/strong&gt; increases and decreases as a function of its cumulative past victories over &lt;strong&gt;Inertia&lt;/strong&gt;, adjusted for recency.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Alternately phrased, like begets like exponentially, and the effect size of &lt;strong&gt;Discipline&lt;/strong&gt; is therefore causally circular, either entropically or negentropically.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Prolonged negative emotion, malaise, and powerlessness are the result of continued &lt;strong&gt;Indulgence&lt;/strong&gt;, concessions to &lt;strong&gt;Inertia&lt;/strong&gt;, and autocatalytic downturn in &lt;strong&gt;Agency&lt;/strong&gt; stimulated by &lt;strong&gt;Failure&lt;/strong&gt; and &lt;strong&gt;Defeat&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;4-the-belief-state&quot;&gt;4. The Belief State&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;. The &lt;strong&gt;Belief State&lt;/strong&gt; is a predictive model of a person’s environment, and is coterminous with a person’s beliefs and presumptions about the state of their environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;. Implicit in, and derivable from, the &lt;strong&gt;Belief State&lt;/strong&gt;, are accurate or inaccurate &lt;strong&gt;Predictions&lt;/strong&gt;, which are anticipatory fantasies about the experiences expected to follow from &lt;strong&gt;Actions&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The shrewd pupil will understand that the only available input to measure the accuracy of a prediction is the resulting experiences from actions taken on them. Predictions anticipate the &lt;strong&gt;Perceived Result&lt;/strong&gt;, which the pupil must not mistake for the &lt;strong&gt;Real Result&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The accuracy of a prediction is measured by the extent of &lt;strong&gt;Victory&lt;/strong&gt; achieved as a result of acting upon the prediction. &lt;strong&gt;Total Victory&lt;/strong&gt; is achieved by acting on totally accurate predictions. Properly conceived, &lt;strong&gt;Victory&lt;/strong&gt; is the sole measure of the accuracy of a prediction, and of the appropriateness of the &lt;strong&gt;Belief State&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Improperly conceived, predictions are accurate to the extent of their correlation with the phantasmic ‘reality’, and unrelated to &lt;strong&gt;Victory&lt;/strong&gt;. This conception is improper because it is circular: the phantasmic ‘reality’ is actually the &lt;strong&gt;Belief State&lt;/strong&gt; in disguise, an internal and mutable phenomenon mistaken for an external and static one.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;. Notionally, the &lt;strong&gt;Real Result&lt;/strong&gt; is comprised of the &lt;strong&gt;Perceived Result&lt;/strong&gt;, reduced in proportion to &lt;strong&gt;Misattributed Causality&lt;/strong&gt;, and increased in proportion to the &lt;strong&gt;Unperceived Results&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;(PR - MR) + UR&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;D.&lt;/strong&gt; The &lt;strong&gt;Belief State&lt;/strong&gt; is parsimoniously updated as a function of the &lt;strong&gt;Prediction Delta&lt;/strong&gt;, a measurement of the difference between the &lt;strong&gt;Prediction&lt;/strong&gt; and the &lt;strong&gt;Perceived Outcome&lt;/strong&gt; based on discrete inferences of causal relation.&lt;/p&gt;
+
+&lt;p&gt;E. The &lt;strong&gt;State Transition Function&lt;/strong&gt; is the function by which the &lt;strong&gt;Belief State&lt;/strong&gt; is amended, and resists amendment. The evolution of the &lt;strong&gt;Belief State&lt;/strong&gt; is determined by the &lt;strong&gt;State Transition Function&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-action-policy-arbitrage&quot;&gt;5. Action Policy Arbitrage&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;. Notionally, the &lt;strong&gt;Belief State&lt;/strong&gt; can be directly amended effortfully through &lt;strong&gt;Discipline&lt;/strong&gt;, if the pupil is in a state of &lt;strong&gt;Ultimate Agency&lt;/strong&gt;. Most pupils will never achieve true discipline, let alone &lt;strong&gt;Ultimate Agency&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;. Through &lt;strong&gt;Shrewd Interrogation&lt;/strong&gt;, it is possible to backwards-engineer the priors of another person’s &lt;strong&gt;Action Policy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;. Through &lt;strong&gt;Comparative Evaluation&lt;/strong&gt;, it is possible to identify the inferiorities of one’s own &lt;strong&gt;Action Policy&lt;/strong&gt;, and the corresponding priors which underlie the inferiorities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D&lt;/strong&gt;. The process of amending the &lt;strong&gt;Action Policy&lt;/strong&gt; is &lt;strong&gt;Action Policy Arbitrage&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-pupil-has-learned&quot;&gt;The Pupil has Learned:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;All non-divine experience is metabolised as either &lt;strong&gt;Learning&lt;/strong&gt; or &lt;strong&gt;Trauma&lt;/strong&gt;, or it is &lt;strong&gt;Forgotten&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The pupil’s &lt;strong&gt;Perceived Result&lt;/strong&gt; is easily mistaken for the &lt;strong&gt;Real Result&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The phantasmic ‘reality’ is actually the pupil’s &lt;strong&gt;Belief State&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Total Victory&lt;/strong&gt; is the final measure of the accuracy of &lt;strong&gt;Predictions&lt;/strong&gt; and &lt;strong&gt;Beliefs&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ultimate Agency&lt;/strong&gt; is required to force amendments to the &lt;strong&gt;Belief State&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Thusly, &lt;strong&gt;Ultimate Agency&lt;/strong&gt; materialises &lt;strong&gt;TOTAL VICTORY&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;thusly-the-pupil-may-make-himself-holy&quot;&gt;Thusly the Pupil May Make Himself Holy:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Observing the &lt;strong&gt;Belief State&lt;/strong&gt; and &lt;strong&gt;Action Policy&lt;/strong&gt; of others&lt;/li&gt;
+  &lt;li&gt;Amending his own &lt;strong&gt;Action Policy&lt;/strong&gt; through &lt;strong&gt;Discipline&lt;/strong&gt; and &lt;strong&gt;Action Policy Arbitrage&lt;/strong&gt;
+&lt;/li&gt;
+  &lt;li&gt;Controlling, limiting, or metabolising &lt;strong&gt;Unbeautiful Experience&lt;/strong&gt;
+&lt;/li&gt;
+  &lt;li&gt;Increasing openness to &lt;strong&gt;Divine Experience&lt;/strong&gt; and devoting himself to &lt;strong&gt;Learning&lt;/strong&gt;
+&lt;/li&gt;
+  &lt;li&gt;Directly amending the &lt;strong&gt;Belief State&lt;/strong&gt; to achieve &lt;strong&gt;Total Victory&lt;/strong&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
+      <link>http://localhost:4000/articles/action-policy-arbitrage</link>
+      <guid isPermaLink="true">http://localhost:4000/articles/action-policy-arbitrage</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Defensive Biological Mimicry</title>
+      <description>&lt;h2 id=&quot;batesian&quot;&gt;Batesian&lt;/h2&gt;
+&lt;p&gt;The mimic evolves to imitate the warning signals of a harmful species directed at a predator which they have in common. The model has some characteristic which makes it less profitable to a predator (such as unpalatability or poisonousness) and so mimics who express similar signals to the model are likely to be mistaken for the model and escape being preyed upon. When the mimic is less common than the model this arrangement can remain stable, since a predator is most likely to prey upon the model, be punished, and avoid similar prey in future. Where the mimic’s numbers are greater than the model’s, the probability of a young predator having a profitable first experience with a mimic is increased, damaging the effectiveness of the mimicry.&lt;/p&gt;
+
+&lt;h2 id=&quot;mullerian&quot;&gt;Mullerian&lt;/h2&gt;
+&lt;p&gt;Similar to Batesian mimicry, but the model and mimic are both harmful to predators or not worthwhile as prey. At first, it was difficult to explain what catalyzed the mimicry, since a harmful species could seemingly rely on its own signalling to warn predators of its unpalatability. However, both model and mimic benefit from this arrangement since a predator is able to generalize a pattern of potentially harmful encounters more easily, strengthening the predator’s association between the signal and resulting harm by increasing the commonality of the signal. In this way, the predator also benefits.&lt;/p&gt;
+
+&lt;h2 id=&quot;emsleyanmertensian&quot;&gt;Emsleyan/Mertensian&lt;/h2&gt;
+&lt;p&gt;An unusual form of mimicry where deadly prey mimics a less dangerous, but still unprofitable species. In instances where a predator is likely to die as a result of an encounter with a particular prey they have no possibility of learning to avoid the prey, making unique signalling by the deadly prey pointless— it would be better off camouflaging to avoid attacks altogether. However, if a predator first learns to avoid a less deadly prey species by non-lethal encounters, it is likely also to avoid its mimics. Therefore, the deadlier species mimics the less deadly one to capitalize on the learned avoidance of that species by predators.&lt;/p&gt;
+
+&lt;h2 id=&quot;vavilovian&quot;&gt;Vavilovian&lt;/h2&gt;
+&lt;p&gt;A form of mimicry found in weeds which come to share characteristics with a domesticated plant through artificial selection. Selection against the weed may occur either by manually killing the weed, or by separating its seeds from those of the crop, pressuring the weed to express characteristics increasingly similar to the crop. Rye is an example of a ‘secondary crop’, originally a weed species which evolved to imitate wheat through artificial selection, until rye itself became worth harvesting. This form of mimicry does not occur in ecosystems unaltered by humans.&lt;/p&gt;
+
+&lt;h2 id=&quot;concepts&quot;&gt;Concepts&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Commensalism: long-term biological interaction (symbiosis) in which members of one species gain benefits while those of the other species neither benefit nor are harmed&lt;/li&gt;
+  &lt;li&gt;Aposematism: use of warning coloration to inform potential predators that an animal is poisonous, venomous, or otherwise dangerous.&lt;/li&gt;
+  &lt;li&gt;Inquiline: an animal that lives commensally in the nest/ burrow/dwelling place of another species.&lt;/li&gt;
+  &lt;li&gt;Mutualism: ecological interaction between two or more species where each species has a net benefit.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Sun, 21 Aug 2022 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/defensive-biological-mimicry</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/defensive-biological-mimicry</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Origin and History of the Chicken</title>
+      <description>&lt;h2 id=&quot;ancestry&quot;&gt;Ancestry&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chickens are largely descended from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Red_junglefowl&quot; class=&quot;web-link&quot;&gt;Red junglefowl&lt;/a&gt;, a bird which none could say looks entirely dissimilar to the modern chicken. They are still scientifically classified as the same species, and can freely interbreed.&lt;/li&gt;
+  &lt;li&gt;Chickens share about 70-80% of their DNA with this still-surviving species, domesticated by humans in the Hellenistic period (4-2C BCE) after millennia of being used for cockfighting.&lt;/li&gt;
+  &lt;li&gt;Subsequently, interbreeding occurred with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Grey_junglefowl&quot; class=&quot;web-link&quot;&gt;grey&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Green_junglefowl&quot; class=&quot;web-link&quot;&gt;green&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Sri_Lankan_junglefowl&quot; class=&quot;web-link&quot;&gt;Sri Lankan&lt;/a&gt; junglefowls, leading to the multifarious chicken breeds we have today.
+    &lt;h2 id=&quot;adapted-reproductive-patterns&quot;&gt;Adapted Reproductive Patterns&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Chickens retain adapted characteristics of junglefowl which take advantage of the vast quantities of seed produced during the end of the multi-decade bamboo seeding cycle, causing it to breed prolifically when exposed to large amounts of food.&lt;/li&gt;
+  &lt;li&gt;In nature, junglefowl populations would balloon every few decades due to the abundant food produced by the simultaneous seeding of many bamboo plants, and slowly dwindle until the next seed cycle. This creates population graph which looks like an inverse &lt;a href=&quot;https://en.wikipedia.org/wiki/Sawtooth_wave&quot; class=&quot;web-link&quot;&gt;Sawtooth wave&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Humans took advantage of the junglefowl’s capacity for prolific reproduction when exposed to abundant food by feeding them all the time, leaving them in permanent state of hyperfertility.
+    &lt;h2 id=&quot;sleep&quot;&gt;Sleep&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Chickens are one of few animals which show unihemispheric slow-wave sleep (USWS), a type of sleep where one half of the brain rests while the other half remains alert— this also means they sleep with one eye open, corresponding to the half of the brain which is not sleeping.&lt;/li&gt;
+  &lt;li&gt;No animal does not require sleep— this information is obscured by the varied forms of sleep that some animals exhibit, but animals like bullfrogs or bees, often said not to require sleep, actually do sleep. Bees do not require ‘recovery sleep’, meaning that after long periods of wakefulness they will be fully energized by a sleep of normal duration.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/origin-and-history-of-the-chicken</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/origin-and-history-of-the-chicken</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Underpinnings of the Library</title>
+      <description>&lt;h2 id=&quot;digitally-integrated-mind-palace&quot;&gt;Digitally-Integrated Mind Palace&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Navigability
+    &lt;ul&gt;
+      &lt;li&gt;Easy hyperlinking = frequent hyperlinking&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Memorability
+    &lt;ul&gt;
+      &lt;li&gt;Hijacking and piggybacking on existing human mnemonic faculties
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a class=&quot;wiki-link&quot; href=&quot;/articles/underpinnings-of-the-library#chernoff-faces&quot;&gt;Chernoff Faces&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class=&quot;wiki-link&quot; href=&quot;/articles/underpinnings-of-the-library#urbit-sigils&quot;&gt;Urbit Sigils&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class=&quot;wiki-link&quot; href=&quot;/articles/underpinnings-of-the-library#urbit-names&quot;&gt;Urbit Names&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;Spatial faculties — does an implementation exist?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Zettelkasten mnemonic badges&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;semantic-internet&quot;&gt;Semantic Internet&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Plain text
+    &lt;ul&gt;
+      &lt;li&gt;Accessibility&lt;/li&gt;
+      &lt;li&gt;Universality&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Standards-compliance&lt;/li&gt;
+  &lt;li&gt;Portability&lt;/li&gt;
+  &lt;li&gt;Static Website Delivery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-as-thinking-written-output-as-consolidated-thought&quot;&gt;Writing as Thinking, Written Output as Consolidated Thought&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Feynman Technique&lt;/li&gt;
+  &lt;li&gt;General —&amp;gt; specific, scattered -&amp;gt; polished&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-ownership-and-escaping-net-serfdom&quot;&gt;Data Ownership and Escaping Net Serfdom&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Digital owned space
+    &lt;ul&gt;
+      &lt;li&gt;Customisability&lt;/li&gt;
+      &lt;li&gt;Local Instance&lt;/li&gt;
+      &lt;li&gt;Digital and Personal Legacy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;foss&quot;&gt;FOSS&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Viral Public License&lt;/li&gt;
+  &lt;li&gt;Non-proprietary (open source) file formats&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;network-sublimation&quot;&gt;Network Sublimation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Collaboration&lt;/li&gt;
+  &lt;li&gt;Webrings&lt;/li&gt;
+  &lt;li&gt;RSS&lt;/li&gt;
+  &lt;li&gt;Remchat&lt;/li&gt;
+  &lt;li&gt;The New Internet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;frictionlessness&quot;&gt;Frictionlessness&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Local storage&lt;/li&gt;
+  &lt;li&gt;No internet required&lt;/li&gt;
+  &lt;li&gt;No coding required&lt;/li&gt;
+  &lt;li&gt;Searchability — in contention with static design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tradition-of-the-library&quot;&gt;Tradition of the Library&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Roman Room&lt;/li&gt;
+  &lt;li&gt;The Memex&lt;/li&gt;
+  &lt;li&gt;The Zettelkasten&lt;/li&gt;
+  &lt;li&gt;Project Xanadu&lt;/li&gt;
+  &lt;li&gt;Web 1.0&lt;/li&gt;
+  &lt;li&gt;IRC&lt;/li&gt;
+  &lt;li&gt;Webrings&lt;/li&gt;
+  &lt;li&gt;Digital Gardens&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;related-concepts-and-projects&quot;&gt;Related Concepts and Projects:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Project Xanadu&lt;/li&gt;
+  &lt;li&gt;Memex&lt;/li&gt;
+  &lt;li&gt;Compendium&lt;/li&gt;
+  &lt;li&gt;Zettelkasten&lt;/li&gt;
+  &lt;li&gt;Hyperdraft&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;visual-data-representations-that-piggyback-on-human-mnemonic-faculties&quot;&gt;Visual data representations that piggyback on human mnemonic faculties&lt;/h2&gt;
+&lt;h3 id=&quot;chernoff-faces&quot;&gt;Chernoff Faces&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/chernoff-faces.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Chernoff faces, invented by applied mathematician, statistician and physicist Herman Chernoff in 1973, display multivariate data in the shape of a human face. The individual parts, such as eyes, ears, mouth and nose represent values of the variables by their shape, size, placement and orientation.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;urbit-sigils&quot;&gt;Urbit Sigils&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/urbit-sigils.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;urbit-names&quot;&gt;Urbit Names&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext center highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Prefixes   Suffixes
+    ---------- ----------
+0.    doz        zod
+1.    mar        nec
+2.    bin        bud
+3.    wan        wes
+4.    sam        sev
+5.    lit        per
+6.    sig        sut
+7.    hid        let
+8.    fid        ful
+9.    lis        pen
+10.   sog        syt
+11.   dir        dur
+12.   wac        wep
+13.   sab        ser
+14.   wis        wyl
+15.   sib        sun
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;!-- 
+```prefixes = [&quot;doz&quot;,&quot;mar&quot;,&quot;bin&quot;,&quot;wan&quot;,&quot;sam&quot;,&quot;lit&quot;,&quot;sig&quot;,&quot;hid&quot;,&quot;fid&quot;,&quot;lis&quot;,&quot;sog&quot;,
+&quot;dir&quot;,&quot;wac&quot;,&quot;sab&quot;,&quot;wis&quot;,&quot;sib&quot;,&quot;rig&quot;,&quot;sol&quot;,&quot;dop&quot;,&quot;mod&quot;,&quot;fog&quot;,&quot;lid&quot;,&quot;hop&quot;,&quot;dar&quot;,
+&quot;dor&quot;,&quot;lor&quot;,&quot;hod&quot;,&quot;fol&quot;,&quot;rin&quot;,&quot;tog&quot;,&quot;sil&quot;,&quot;mir&quot;,&quot;hol&quot;,&quot;pas&quot;,&quot;lac&quot;,&quot;rov&quot;,&quot;liv&quot;,
+&quot;dal&quot;,&quot;sat&quot;,&quot;lib&quot;,&quot;tab&quot;,&quot;han&quot;,&quot;tic&quot;,&quot;pid&quot;,&quot;tor&quot;,&quot;bol&quot;,&quot;fos&quot;,&quot;dot&quot;,&quot;los&quot;,&quot;dil&quot;,
+&quot;for&quot;,&quot;pil&quot;,&quot;ram&quot;,&quot;tir&quot;,&quot;win&quot;,&quot;tad&quot;,&quot;bic&quot;,&quot;dif&quot;,&quot;roc&quot;,&quot;wid&quot;,&quot;bis&quot;,&quot;das&quot;,&quot;mid&quot;,
+&quot;lop&quot;,&quot;ril&quot;,&quot;nar&quot;,&quot;dap&quot;,&quot;mol&quot;,&quot;san&quot;,&quot;loc&quot;,&quot;nov&quot;,&quot;sit&quot;,&quot;nid&quot;,&quot;tip&quot;,&quot;sic&quot;,&quot;rop&quot;,
+&quot;wit&quot;,&quot;nat&quot;,&quot;pan&quot;,&quot;min&quot;,&quot;rit&quot;,&quot;pod&quot;,&quot;mot&quot;,&quot;tam&quot;,&quot;tol&quot;,&quot;sav&quot;,&quot;pos&quot;,&quot;nap&quot;,&quot;nop&quot;,
+&quot;som&quot;,&quot;fin&quot;,&quot;fon&quot;,&quot;ban&quot;,&quot;mor&quot;,&quot;wor&quot;,&quot;sip&quot;,&quot;ron&quot;,&quot;nor&quot;,&quot;bot&quot;,&quot;wic&quot;,&quot;soc&quot;,&quot;wat&quot;,
+&quot;dol&quot;,&quot;mag&quot;,&quot;pic&quot;,&quot;dav&quot;,&quot;bid&quot;,&quot;bal&quot;,&quot;tim&quot;,&quot;tas&quot;,&quot;mal&quot;,&quot;lig&quot;,&quot;siv&quot;,&quot;tag&quot;,&quot;pad&quot;,
+&quot;sal&quot;,&quot;div&quot;,&quot;dac&quot;,&quot;tan&quot;,&quot;sid&quot;,&quot;fab&quot;,&quot;tar&quot;,&quot;mon&quot;,&quot;ran&quot;,&quot;nis&quot;,&quot;wol&quot;,&quot;mis&quot;,&quot;pal&quot;,
+&quot;las&quot;,&quot;dis&quot;,&quot;map&quot;,&quot;rab&quot;,&quot;tob&quot;,&quot;rol&quot;,&quot;lat&quot;,&quot;lon&quot;,&quot;nod&quot;,&quot;nav&quot;,&quot;fig&quot;,&quot;nom&quot;,&quot;nib&quot;,
+&quot;pag&quot;,&quot;sop&quot;,&quot;ral&quot;,&quot;bil&quot;,&quot;had&quot;,&quot;doc&quot;,&quot;rid&quot;,&quot;moc&quot;,&quot;pac&quot;,&quot;rav&quot;,&quot;rip&quot;,&quot;fal&quot;,&quot;tod&quot;,
+&quot;til&quot;,&quot;tin&quot;,&quot;hap&quot;,&quot;mic&quot;,&quot;fan&quot;,&quot;pat&quot;,&quot;tac&quot;,&quot;lab&quot;,&quot;mog&quot;,&quot;sim&quot;,&quot;son&quot;,&quot;pin&quot;,&quot;lom&quot;,
+&quot;ric&quot;,&quot;tap&quot;,&quot;fir&quot;,&quot;has&quot;,&quot;bos&quot;,&quot;bat&quot;,&quot;poc&quot;,&quot;hac&quot;,&quot;tid&quot;,&quot;hav&quot;,&quot;sap&quot;,&quot;lin&quot;,&quot;dib&quot;,
+&quot;hos&quot;,&quot;dab&quot;,&quot;bit&quot;,&quot;bar&quot;,&quot;rac&quot;,&quot;par&quot;,&quot;lod&quot;,&quot;dos&quot;,&quot;bor&quot;,&quot;toc&quot;,&quot;hil&quot;,&quot;mac&quot;,&quot;tom&quot;,
+&quot;dig&quot;,&quot;fil&quot;,&quot;fas&quot;,&quot;mit&quot;,&quot;hob&quot;,&quot;har&quot;,&quot;mig&quot;,&quot;hin&quot;,&quot;rad&quot;,&quot;mas&quot;,&quot;hal&quot;,&quot;rag&quot;,&quot;lag&quot;,
+&quot;fad&quot;,&quot;top&quot;,&quot;mop&quot;,&quot;hab&quot;,&quot;nil&quot;,&quot;nos&quot;,&quot;mil&quot;,&quot;fop&quot;,&quot;fam&quot;,&quot;dat&quot;,&quot;nol&quot;,&quot;din&quot;,&quot;hat&quot;,
+&quot;nac&quot;,&quot;ris&quot;,&quot;fot&quot;,&quot;rib&quot;,&quot;hoc&quot;,&quot;nim&quot;,&quot;lar&quot;,&quot;fit&quot;,&quot;wal&quot;,&quot;rap&quot;,&quot;sar&quot;,&quot;nal&quot;,&quot;mos&quot;,
+&quot;lan&quot;,&quot;don&quot;,&quot;dan&quot;,&quot;lad&quot;,&quot;dov&quot;,&quot;riv&quot;,&quot;bac&quot;,&quot;pol&quot;,&quot;lap&quot;,&quot;tal&quot;,&quot;pit&quot;,&quot;nam&quot;,&quot;bon&quot;,
+&quot;ros&quot;,&quot;ton&quot;,&quot;fod&quot;,&quot;pon&quot;,&quot;sov&quot;,&quot;noc&quot;,&quot;sor&quot;,&quot;lav&quot;,&quot;mat&quot;,&quot;mip&quot;,&quot;fip&quot;]```
+
+{:.center}
+```suffixes = [&quot;zod&quot;,&quot;nec&quot;,&quot;bud&quot;,&quot;wes&quot;,&quot;sev&quot;,&quot;per&quot;,&quot;sut&quot;,&quot;let&quot;,&quot;ful&quot;,&quot;pen&quot;,&quot;syt&quot;,
+&quot;dur&quot;,&quot;wep&quot;,&quot;ser&quot;,&quot;wyl&quot;,&quot;sun&quot;,&quot;ryp&quot;,&quot;syx&quot;,&quot;dyr&quot;,&quot;nup&quot;,&quot;heb&quot;,&quot;peg&quot;,&quot;lup&quot;,&quot;dep&quot;,
+&quot;dys&quot;,&quot;put&quot;,&quot;lug&quot;,&quot;hec&quot;,&quot;ryt&quot;,&quot;tyv&quot;,&quot;syd&quot;,&quot;nex&quot;,&quot;lun&quot;,&quot;mep&quot;,&quot;lut&quot;,&quot;sep&quot;,&quot;pes&quot;,
+&quot;del&quot;,&quot;sul&quot;,&quot;ped&quot;,&quot;tem&quot;,&quot;led&quot;,&quot;tul&quot;,&quot;met&quot;,&quot;wen&quot;,&quot;byn&quot;,&quot;hex&quot;,&quot;feb&quot;,&quot;pyl&quot;,&quot;dul&quot;,
+&quot;het&quot;,&quot;mev&quot;,&quot;rut&quot;,&quot;tyl&quot;,&quot;wyd&quot;,&quot;tep&quot;,&quot;bes&quot;,&quot;dex&quot;,&quot;sef&quot;,&quot;wyc&quot;,&quot;bur&quot;,&quot;der&quot;,&quot;nep&quot;,
+&quot;pur&quot;,&quot;rys&quot;,&quot;reb&quot;,&quot;den&quot;,&quot;nut&quot;,&quot;sub&quot;,&quot;pet&quot;,&quot;rul&quot;,&quot;syn&quot;,&quot;reg&quot;,&quot;tyd&quot;,&quot;sup&quot;,&quot;sem&quot;,
+&quot;wyn&quot;,&quot;rec&quot;,&quot;meg&quot;,&quot;net&quot;,&quot;sec&quot;,&quot;mul&quot;,&quot;nym&quot;,&quot;tev&quot;,&quot;web&quot;,&quot;sum&quot;,&quot;mut&quot;,&quot;nyx&quot;,&quot;rex&quot;,
+&quot;teb&quot;,&quot;fus&quot;,&quot;hep&quot;,&quot;ben&quot;,&quot;mus&quot;,&quot;wyx&quot;,&quot;sym&quot;,&quot;sel&quot;,&quot;ruc&quot;,&quot;dec&quot;,&quot;wex&quot;,&quot;syr&quot;,&quot;wet&quot;,
+&quot;dyl&quot;,&quot;myn&quot;,&quot;mes&quot;,&quot;det&quot;,&quot;bet&quot;,&quot;bel&quot;,&quot;tux&quot;,&quot;tug&quot;,&quot;myr&quot;,&quot;pel&quot;,&quot;syp&quot;,&quot;ter&quot;,&quot;meb&quot;,
+&quot;set&quot;,&quot;dut&quot;,&quot;deg&quot;,&quot;tex&quot;,&quot;sur&quot;,&quot;fel&quot;,&quot;tud&quot;,&quot;nux&quot;,&quot;rux&quot;,&quot;ren&quot;,&quot;wyt&quot;,&quot;nub&quot;,&quot;med&quot;,
+&quot;lyt&quot;,&quot;dus&quot;,&quot;neb&quot;,&quot;rum&quot;,&quot;tyn&quot;,&quot;seg&quot;,&quot;lyx&quot;,&quot;pun&quot;,&quot;res&quot;,&quot;red&quot;,&quot;fun&quot;,&quot;rev&quot;,&quot;ref&quot;,
+&quot;mec&quot;,&quot;ted&quot;,&quot;rus&quot;,&quot;bex&quot;,&quot;leb&quot;,&quot;dux&quot;,&quot;ryn&quot;,&quot;num&quot;,&quot;pyx&quot;,&quot;ryg&quot;,&quot;ryx&quot;,&quot;fep&quot;,&quot;tyr&quot;,
+&quot;tus&quot;,&quot;tyc&quot;,&quot;leg&quot;,&quot;nem&quot;,&quot;fer&quot;,&quot;mer&quot;,&quot;ten&quot;,&quot;lus&quot;,&quot;nus&quot;,&quot;syl&quot;,&quot;tec&quot;,&quot;mex&quot;,&quot;pub&quot;,
+&quot;rym&quot;,&quot;tuc&quot;,&quot;fyl&quot;,&quot;lep&quot;,&quot;deb&quot;,&quot;ber&quot;,&quot;mug&quot;,&quot;hut&quot;,&quot;tun&quot;,&quot;byl&quot;,&quot;sud&quot;,&quot;pem&quot;,&quot;dev&quot;,
+&quot;lur&quot;,&quot;def&quot;,&quot;bus&quot;,&quot;bep&quot;,&quot;run&quot;,&quot;mel&quot;,&quot;pex&quot;,&quot;dyt&quot;,&quot;byt&quot;,&quot;typ&quot;,&quot;lev&quot;,&quot;myl&quot;,&quot;wed&quot;,
+&quot;duc&quot;,&quot;fur&quot;,&quot;fex&quot;,&quot;nul&quot;,&quot;luc&quot;,&quot;len&quot;,&quot;ner&quot;,&quot;lex&quot;,&quot;rup&quot;,&quot;ned&quot;,&quot;lec&quot;,&quot;ryd&quot;,&quot;lyd&quot;,
+&quot;fen&quot;,&quot;wel&quot;,&quot;nyd&quot;,&quot;hus&quot;,&quot;rel&quot;,&quot;rud&quot;,&quot;nes&quot;,&quot;hes&quot;,&quot;fet&quot;,&quot;des&quot;,&quot;ret&quot;,&quot;dun&quot;,&quot;ler&quot;,
+&quot;nyr&quot;,&quot;seb&quot;,&quot;hul&quot;,&quot;ryl&quot;,&quot;lud&quot;,&quot;rem&quot;,&quot;lys&quot;,&quot;fyn&quot;,&quot;wer&quot;,&quot;ryc&quot;,&quot;sug&quot;,&quot;nys&quot;,&quot;nyl&quot;,
+&quot;lyn&quot;,&quot;dyn&quot;,&quot;dem&quot;,&quot;lux&quot;,&quot;fed&quot;,&quot;sed&quot;,&quot;bec&quot;,&quot;mun&quot;,&quot;lyr&quot;,&quot;tes&quot;,&quot;mud&quot;,&quot;nyt&quot;,&quot;byr&quot;,
+&quot;sen&quot;,&quot;weg&quot;,&quot;fyr&quot;,&quot;mur&quot;,&quot;tel&quot;,&quot;rep&quot;,&quot;teg&quot;,&quot;pec&quot;,&quot;nel&quot;,&quot;nev&quot;,&quot;fes&quot;]``` --&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext center highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  8 bits  galaxy  ~lyt
+ 16 bits  star    ~diglyt
+ 32 bits  planet  ~picder-ragsyt
+ 64 bits  moon    ~diglyt-diglyt-picder-ragsyt
+128 bits  comet   ~racmus-mollen-fallyt-linpex--watres-sibbur-modlux-rinmex
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;roman-roommemory-palacemethod-of-loci&quot;&gt;Roman Room/Memory Palace/Method of Loci&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/roman-room.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-lukasa&quot;&gt;The Lukasa&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/lukasa.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Court historians known as bana balute (“men of memory”) run their fingertips across the surface of a lukasa or point to its features while reciting genealogies, king lists, maps of protocol, migration stories, and the great Luba Epic, a preeminent oral narrative that records how the culture heroes, Mbidi Kiluwe and his son Kalala Ilunga, introduced royal political practices and etiquette. “&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/articles/underpinnings-of-the-library</link>
+      <guid isPermaLink="true">http://localhost:4000/articles/underpinnings-of-the-library</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Dopamine, L-dopa and Pattern Detection</title>
+      <description>&lt;p&gt;Production of neurotransmitter dopamine is stimulated by novelty, and it facilitates learning, information storage and pattern-recognition, as well as regulating emotion. Pattern-detection is important to learning, because the brain is able to compress complex raw data by identifying repetitious elements and storing information in association with the pattern, rather than making space for each node of information to be stored separately&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote web-link&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. For example, there is no need to memorize 1000 patterns of digits in order to count from 1 to 1000; the pattern is regular enough that the brain can derive each integer from a pattern it has stored, without storing each data point that the pattern produces.&lt;/p&gt;
+
+&lt;p&gt;However, patterns are not pure representations of the world, or even of the data being apprehended by the brain— they are mnemonic data structures which necessarily reduce the complexity of information in order to store it more efficiently. Pattern-matching is generally considered to be helpful for learning, and this may be true, provided that ‘learning’ in this context has the same meaning as ‘remembering’, or ‘committing to memory’.&lt;/p&gt;
+
+&lt;p&gt;However, is learning-as-remembering actually conducive to understanding? ‘Sensitivity to pattern-detection’ can be alternately phrased as ‘tendency to apply narrative’. Humans cannot resist applying narrative to phenomena, and it seems that a compulsion to apprehend data in a logical or causal sequence is deeply ingrained in the human brain, ported over from a form of intelligence that evolved to understand the physical world, where causality is a ubiquitous feature. For this reason, making judgements and applying narratives over inert, chaotic data is a human default, and takes serious conscious effort to avoid. In reality, the overwhelming majority of information confronting the mind is not better understood by being wrangled into a Procrustean pattern, including the criteria of cause and effect. However, these are the mental tools that humans are provided with, and and we do it anyway. One often develops a closer relationship with reality by forgoing any hope of understanding it.&lt;/p&gt;
+
+&lt;p&gt;Given its role in pattern-detection, it is unsurprising that dopamine also lowers skepticism, and that highly dopamine-dependent people make poorer decisions. If logical sequences (patterns) appear more readily, an inflated subset of chaotic phenomena appears to ‘make sense’, and so the suspension of belief is more easily overcome. L-dopa, a drug which is metabolized as dopamine and used to treat Parkinson’s, makes people more vulnerable to pattern-detection, and has a notable side-effect that causes some patients to develop sudden gambling addictions— patients see clear patterns in random phenomena, leading them to believe that reality is more predictable than it is, and that they can expect success by acting in confidence of their understanding of reality.&lt;/p&gt;
+
+&lt;p&gt;In brief: Pattern detection is conducive to memorization, but not necessarily to clear thinking; in many instances apprehension of a pattern is a reduction of phenomena too complex to be faithfully reduced. Heightened dopamine can bolster addictive compulsions and increase credulousness, as patterns are more readily detected and chaotic sequences of action appear to make more sense. Pattern-detection is enhanced by dopamine production, and tendencies to compulsive action can result.&lt;/p&gt;
+
+&lt;h2 id=&quot;dopamine-and-neuroplasticity&quot;&gt;Dopamine and Neuroplasticity&lt;/h2&gt;
+&lt;p&gt;Dopamine is also tightly associated with path-seeking, motivation, and anticipation. Properly conceived, it is not a chemical reward, but a chemical motivator which orients the brain in pursuit of a reward. In the short-term, dopamine has the effect of mental sharpening, alertness, and sensitivity to stimuli. When administered chemicals metabolised as dopamine, chemical which is released in anticipation of something good happening in the future.&lt;/p&gt;
+
+&lt;p&gt;Anticipation may be pleasurable, though it is physiologically analogous to nervous anticipation, and open to subjective interpretation. However, our anticipation does not transform into pleasure until the thing anticipated actually happens. If we are excited for good news and don’t hear any, we experience a dopamine crash which brings us to a more displeasurable state than where we started, though nothing has changed.&lt;/p&gt;
+
+&lt;p&gt;This is reflected neurochemically: When dopamine is released, there is no neurochemical reward until the the dopamine loop is ‘closed’. Upon this ‘closure’, signals are transmitted backward through the neural systems which were activated as the reward was approached, stimulating cellular growth through myelinization and strengthening the pathways which contributed to the achievement of the goal. This has the effect of increasing our tendency to follow the pattern of action which led us to the reward. Drug addictions develop exactly this way, when the association between drug administration and dopamine release becomes physiologically ingrained. A process of reward-induced neuroplasticity is activated, incentivising either a similar or different path of action depending on whether or not the promise of achievement or pleasure made by the release of dopamine is kept. For this reason, habit-forming and learning of both positive and negative kinds are accelerated when accompanied by the appropriate dopamine release (or administration).&lt;/p&gt;
+
+&lt;p&gt;Dopamine draws the mind’s attention to things outside the body, away from interoceptive considerations such as placement of limbs, rate of breathing and heartbeat, respiration, satiety, and emotions associated with autonomic and subconscious processes. By this mechanism, dopamine release decreases self-consciousness.&lt;/p&gt;
+
+&lt;p&gt;The above information on dopamine can be worked neatly into the framework of &lt;a class=&quot;wiki-link&quot; href=&quot;/notes/predictive-processing-and-the-free-energy-principle&quot;&gt;Predictive Processing&lt;/a&gt;, which posits ‘free energy’ (put simply, ‘surprise’) as the emergent loss function of biological systems. Free energy represents a delta between the perceptive fantasy (world-theory/model of reality) and sensory input, experienced as subjectively unpleasant surprise.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This process can be compared to data compression algorithms, which implement processes in digitizing natural (analogue) data which are comparable to those used by the human brain when ‘compressing’ experienced data into memory. Quantization, rounding, truncation, subsampling, and others. The human brain searches for patterns and repetition, creates abstractions to bundle concepts together, and forms heuristics to make inferences. Read about some examples of data visualisation and mnemonic aids which demonstrate the crossover between computer and human memory. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote web-link&quot; role=&quot;doc-backlink&quot;&gt;↲&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 -0800</pubDate>
+      <link>http://localhost:4000/notes/l-dopa</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/l-dopa</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>Writing with Exocore Syntax</title>
+      <description>&lt;h2 id=&quot;markdown-basics&quot;&gt;Markdown Basics&lt;/h2&gt;
+
+&lt;p&gt;The Exocore utilizes standardized Markdown syntax, along with some additional extensions. Much of the content of this article covers existing markdown syntax used universally in plain text formatting. However, some syntax, such as &lt;a class=&quot;wiki-link&quot; href=&quot;/articles/writing-with-exocore-syntax#examples-of-wikilinks&quot;&gt;wikilinks&lt;/a&gt; and &lt;a class=&quot;wiki-link&quot; href=&quot;/articles/writing-with-exocore-syntax#inserting-images&quot;&gt;images&lt;/a&gt; are particular to the Exocore.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/#basic-syntax&quot; class=&quot;web-link&quot;&gt;A Simple markdown cheat sheet &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; class=&quot;web-link&quot;&gt;A more comprehensive markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;headers&quot;&gt;Headers&lt;/h2&gt;
+
+&lt;p&gt;The above is a level 2 heading, preceded by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;##&lt;/code&gt; and a space.&lt;/p&gt;
+
+&lt;p&gt;There’s nothing special about the way the Exocore processes headers— it’s just standard markdown. However, each header will render with an anchor link. If you hover over a heading and click the link icon that appears, the URL in your browser will reflect the section that you clicked. Now, if you copy that URL it will link directly to the heading that you clicked.&lt;/p&gt;
+
+&lt;h3 id=&quot;heading-levels&quot;&gt;Heading levels&lt;/h3&gt;
+
+&lt;p&gt;The above is a level 3 heading, preceded by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;###&lt;/code&gt; and a space.&lt;/p&gt;
+
+&lt;p&gt;Here’s some advice: Only use top-level headings (preceded by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;) for the document’s title. Aside from being markdown best practice, the Exocore takes your first top-level heading to use as the title of the page in the final rendered output. For intra-document section titles, use a level 2 heading. It’s for the best.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples-of-wikilinks&quot;&gt;Examples of Wikilinks:&lt;/h2&gt;
+
+&lt;p&gt;Here is a basic wikilink, pointing to other posts on this Exocore: [[grudges]] It renders like this: &lt;a class=&quot;wiki-link&quot; href=&quot;/music/grudges&quot;&gt;grudges&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is written as the title of their corresponding markdown file, surrounded by double square brackets. However, in the final render they are presented by default as the page’s title. This saves you typing out the whole page title in your markdown document, and allows the Foam VSCode extension to suggest files as you type. Below you can read about how to change their presentation.&lt;/p&gt;
+
+&lt;p&gt;You can alias a link like this: [[Fox|this link]] if you don’t want to keep the title. Heads up— &lt;a class=&quot;wiki-link&quot; href=&quot;/notes/fox&quot;&gt;This link&lt;/a&gt; points to a quote from Mishima.&lt;/p&gt;
+
+&lt;p&gt;You can also point to headers within a page: [[writing-with-exocore-syntax#Wikilink Embeds|This wikilink]]. &lt;a class=&quot;wiki-link&quot; href=&quot;/articles/writing-with-exocore-syntax#wikilink-embeds&quot;&gt;This wikilink&lt;/a&gt; points to a header further down on this page, by using a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.&lt;/p&gt;
+
+&lt;p&gt;Check out the backlinks section at the bottom of any post, and you’ll find a list of every post that links back to it. Backlinks are automatically generated, and display all posts with links pointing to them.&lt;/p&gt;
+
+&lt;h2 id=&quot;wikilink-embeds&quot;&gt;Wikilink Embeds&lt;/h2&gt;
+
+&lt;p&gt;The below text is embedded, using the same wikilink syntax as normal, but with an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!&lt;/code&gt; prepended. The full text of the linked note will be included. For example, here is an example of embedded note syntax:&lt;/p&gt;
+
+&lt;div class=&quot;embed-wrapper&quot;&gt;
+&lt;div class=&quot;embed-title&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-content&quot;&gt;
+&lt;h1 id=&quot;to-die-among-strangers&quot;&gt;To Die Among Strangers&lt;/h1&gt;
+&lt;p&gt;What I wanted was to die among strangers, untroubled, beneath a cloudless sky. And yet my desire differed from the sentiments of that ancient Greek who wanted to die under the briliant sun. What I wanted was some natural, spontaneous suicide. I wanted a death like that of a fox, not yet well versed in cunning, that walks carelessly along a mountain path and is shot by a hunter because of its own stupidity…&lt;/p&gt;
+&lt;p&gt;- Yukio Mishima&lt;/p&gt;
+&lt;/div&gt;
+&lt;a class=&quot;embed-wiki-link&quot; href=&quot;/notes/fox&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;external-hyperlinks&quot;&gt;External Hyperlinks&lt;/h2&gt;
+
+&lt;p&gt;Hyperlinks to external sites are not the same as wikilinks. A wikilink is a simple way to hyperlink to other posts on your Exocore without using the full processed URL as it is rendered online. A wikilink works locally in VSCode, allowing you to navigate between posts, and is transformed at render time to a web hyperlink, so that it always points to the correct page.&lt;/p&gt;
+
+&lt;p&gt;To create a hyperlink, use single normal parentheses around the URL you want to point to, and square brackets around the text you want displayed:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Parenthesis&quot; class=&quot;web-link&quot;&gt;https://en.wikipedia.org/wiki/Parenthesis&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[https://en.wikipedia.org/wiki/Parenthesis](https://en.wikipedia.org/wiki/Parenthesis)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can alias a hyperlink by changing the text in the square brackets, like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hyperlink&quot; class=&quot;web-link&quot;&gt;Here’s some information about Hyperlinks.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Here's some information about Hyperlinks.](https://en.wikipedia.org/wiki/Hyperlink)&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;applying-classes-to-a-paragraph-or-image&quot;&gt;Applying classes to a paragraph or image&lt;/h2&gt;
+
+&lt;p class=&quot;right-aside&quot;&gt;&lt;strong&gt;Oh, by the way:&lt;/strong&gt; You can apply the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.right-aside}&lt;/code&gt; class to create an aside, like this one. An aside floats to one side and other text wraps around it. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.left-aside}&lt;/code&gt; is also available for some variety.&lt;/p&gt;
+
+&lt;p&gt;Kramdown, the Markdown parser used by this implementation of the Exocore, has the ability to apply a CSS class to a paragraph by including syntax like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.classname}&lt;/code&gt; at the top or bottom of a paragraph. The class will be applied to the whole paragraph. The Exocore stylesheet includes a few general classes meant to be used for just this purpose, which you should feel free to add to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The following classes are pre-defined in the Exocore stylesheet:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.center}&lt;/code&gt; — &lt;em&gt;Reduces width of paragraph and centers it for emphasis&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.left-aside}&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.right-aside}&lt;/code&gt; — &lt;em&gt;Applies a border and floats to the left/right. Other text will wrap around it&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.left}&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.right}&lt;/code&gt; - &lt;em&gt;Reduces width and places to the left/right (meant for images)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.border}&lt;/code&gt; - &lt;em&gt;applies a thin border&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.shadow}&lt;/code&gt; - &lt;em&gt;applies a dark blurred drop shadow&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.glow}&lt;/code&gt; - &lt;em&gt;applies a bright blurred drop shadow (produces a glowing effect)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:.flip}&lt;/code&gt; - &lt;em&gt;flips the image (or text) horizontally&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| You can           | create a          | simple table      | like this.     |
+| ----------------- | ----------------- | ----------------- | -------------- |
+| A new line        | in markdown       | extends the table | vertically.    |
+| A pipe            | extends the table | laterally.        |                |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;You can&lt;/th&gt;
+      &lt;th&gt;create a&lt;/th&gt;
+      &lt;th&gt;simple table&lt;/th&gt;
+      &lt;th&gt;like this.&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;A new line&lt;/td&gt;
+      &lt;td&gt;in markdown&lt;/td&gt;
+      &lt;td&gt;extends the table&lt;/td&gt;
+      &lt;td&gt;vertically.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;A pipe&lt;/td&gt;
+      &lt;td&gt;extends the table&lt;/td&gt;
+      &lt;td&gt;laterally.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;For more options, check out the ‘advanced tables’ plugin in the sidebar. This plugin will assist you with spacing and syntax, and includes a powerful formula function, about which you can find information &lt;a href=&quot;https://github.com/tgrosinger/md-advanced-tables/blob/main/docs/formulas.md&quot; class=&quot;web-link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;graphviz&quot;&gt;Graphviz&lt;/h2&gt;
+
+&lt;p&gt;For more complex data representation, &lt;a href=&quot;https://graphviz.org/&quot; class=&quot;web-link&quot;&gt;Graphviz&lt;/a&gt; can be used in conjunction with the Exocore. Read more about Graphviz syntax &lt;a href=&quot;https://graphviz.org/documentation/&quot; class=&quot;web-link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;sidenotes-and-footnotes&quot;&gt;Sidenotes and Footnotes:&lt;/h2&gt;
+
+&lt;p&gt;Footnotes are done with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[^1]&lt;/code&gt;, and look like this: &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote web-link&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Each footnote is an anchor link to the bottom of the page, with a return link attached. Notice the sidenote in the right margin, identical to the footnote.&lt;/p&gt;
+
+&lt;p&gt;All footnotes are also rendered as sidenotes. A footnote forms a commentary or citation best kept separate from the main text, and a sidenote is an easy way for a reader to access such commentary without breaking ergonomy by jumping up and down the page.&lt;/p&gt;
+
+&lt;p&gt;If you want to add multi-paragraph footnotes, indent your second paragraph, like this (see footnote at bottom).&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote web-link&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[^2]: For longer footnotes, you may want to use multiple paragraphs.
+
+    Indent paragraphs to include them in the footnote.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can put a footnote’s markdown reference immediately under a paragraph, like this&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote web-link&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, or clump them at the end. Either way, they will appear at the bottom in your rendered content.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[^3]: This footnote appears immediately underneath its referring paragraph in this document's original markdown, but on the rendered website it shows at the bottom. &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Footnotes automatically form a numbered list, and can also be mapped by name, like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[^named-footnote]&lt;/code&gt;&lt;sup id=&quot;fnref:named-footnote&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:named-footnote&quot; class=&quot;footnote web-link&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;inserting-images&quot;&gt;Inserting images&lt;/h2&gt;
+
+&lt;p&gt;To insert an image, use the following syntax:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![](/images/flowers.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;However, &lt;strong&gt;don’t bother remembering this syntax.&lt;/strong&gt; the easiest way to insert an image is to use the Paste Image VSCode extension, included in Obsidian by default, which you will be prompted to download as a recommended third-party extension of the Foam VSCode extension. For MacOS, copy your image to the clipboard, and use keyboard command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD + option + V&lt;/code&gt;. You will be prompted to give your image file a name, and add it to the images folder in your Exocore’s top-level directory. &lt;strong&gt;Note:&lt;/strong&gt; If you CMD+C copy an image from your desktop on a mac, it is not copied to your clipboard. Instead, open the image, and then use the same keyboard command.&lt;/p&gt;
+
+&lt;p&gt;You can insert alt text and a caption like this:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![This is alt text](/images/flowers.png)
+*Insert a caption by placing italicised text immediately underneath the image*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The above snippet produces the below outcome:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/flowers.png&quot; alt=&quot;This is alt text&quot;&gt;
+&lt;em&gt;Insert a caption by placing italicised text immediately underneath the image, with no empty line in between.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;embedded-code&quot;&gt;Embedded Code&lt;/h2&gt;
+&lt;p&gt;To embed a piece of code so that characters are rendered verbatim, surround the code snippet with ``` on either side, like so:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/zsh
+cd ~/desktop/admin &amp;amp;&amp;amp; bundle exec jekyll serve --baseurl ''
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Use just one ` to embed code in the same line as the rest of your text.&lt;/p&gt;
+
+&lt;h2 id=&quot;naming-files&quot;&gt;Naming files&lt;/h2&gt;
+
+&lt;p&gt;Don’t use whitespace in your filenames— instead, name-them-like-this. This way, titles are easily converted to URLs and the back end of the Exocore remains happy. This of course applies only to filenames, and you may title your posts how you wish.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;That should be everything to get you started!&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This is the first footnote. Note the return button: &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote web-link&quot; role=&quot;doc-backlink&quot;&gt;↲&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;For longer footnotes, you may want to use multiple paragraphs.&lt;/p&gt;
+
+      &lt;p&gt;Indent paragraphs to include them in the footnote. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote web-link&quot; role=&quot;doc-backlink&quot;&gt;↲&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This footnote appears immediately underneath its referring paragraph in this document’s original markdown, but on the rendered website it shows at the bottom. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote web-link&quot; role=&quot;doc-backlink&quot;&gt;↲&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:named-footnote&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This footnote has the name ‘named-footnote’. it’s still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown. &lt;a href=&quot;#fnref:named-footnote&quot; class=&quot;reversefootnote web-link&quot; role=&quot;doc-backlink&quot;&gt;↲&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 -0800</pubDate>
+      <link>http://localhost:4000/articles/writing-with-exocore-syntax</link>
+      <guid isPermaLink="true">http://localhost:4000/articles/writing-with-exocore-syntax</guid>
+    </item>
+  
+
+  
+    <item>
+      <title>To Die Among Strangers</title>
+      <description>&lt;p&gt;What I wanted was to die among strangers, untroubled, beneath a cloudless sky. And yet my desire differed from the sentiments of that ancient Greek who wanted to die under the briliant sun. What I wanted was some natural, spontaneous suicide. I wanted a death like that of a fox, not yet well versed in cunning, that walks carelessly along a mountain path and is shot by a hunter because of its own stupidity…&lt;/p&gt;
+
+&lt;p&gt;- Yukio Mishima&lt;/p&gt;
+</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 -0700</pubDate>
+      <link>http://localhost:4000/notes/fox</link>
+      <guid isPermaLink="true">http://localhost:4000/notes/fox</guid>
+    </item>
+  
+
+  
+
+
+
+  </channel>
+</rss>

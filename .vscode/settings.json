@@ -15,9 +15,7 @@
     ".gitignore": true,
     ".jekyll-cache": true,
     ".vscode": true,
-    "**/node_modules": true,
-    "Gemfile": true,
-    "Gemfile.lock": true
+    "**/node_modules": true
   },
   "files.watcherExclude": {
     "**/node_modules": true

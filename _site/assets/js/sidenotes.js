@@ -78,7 +78,7 @@
 
         div.css({
             position: "absolute",
-            left: "70%",
+            left: "75%",
             top: topPosition["top"],
             width: startPosition/2,
         });

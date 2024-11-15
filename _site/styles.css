@@ -2,9 +2,9 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document ========================================================================== */
 /** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Stalinist+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /* Sections ========================================================================== */
@@ -289,14 +289,14 @@ template { display: none; }
 /* Literal.Number.Integer.Long */
 /* ### Theme: MyTheme ### */
 /* === Base Settings === */
-[data-theme="black"] { font-family: "Inconsolata", "Iosevka Term SS03", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono", Monaco, Consolas, Courier, monospace; --background: black; --color-inner-divs: var(--background); --color-items: var(--background); --background-image: none; /* --- Text Colors --- */ --color-text: white; --color-subtext: white; --color-code: pink; --internal-links: orange; --external-links: orange; --invalid-links: var(--internal-links); --color-primary: orange; --color-secondary: chocolate; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px solid white; --sidebar-border: 1px solid white; --prev-next-border: 1px solid white; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid orange; --color-embed-background: black; --color-embed-title: orange; --color-embed-text: white; --footnote-border: thin solid orange; --color-footnote-background: black; --color-footnote-text: white; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: black; --color-sidenote-text: var(--color-text); }
+[data-theme="black"] { font-family: 'Inconsolata',"Amiri", monospace; --background: black; --color-inner-divs: var(--background); --color-items: var(--background); --background-image: none; /* --- Text Colors --- */ --color-text: white; --color-subtext: white; --color-code: white; --internal-links: orange; --external-links: orange; --invalid-links: chocolate; --color-primary: orange; --color-secondary: chocolate; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px solid white; --sidebar-border: 1px solid white; --prev-next-border: 1px solid white; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid orange; --color-embed-background: black; --color-embed-title: orange; --color-embed-text: white; --footnote-border: thin solid orange; --color-footnote-background: black; --color-footnote-text: white; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: black; --color-sidenote-text: var(--color-text); }
 
-[data-theme="white"] { font-family: "Inconsolata", "Iosevka Term SS03", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono", Monaco, Consolas, Courier, monospace; --background: white; --color-inner-divs: var(--background); --color-items: var(--background); --background-image: none; /* --- Text Colors --- */ --color-text: black; --color-subtext: black; --color-code: pink; --internal-links: blue; --external-links: blue; --invalid-links: var(--internal-links); --color-primary: blue; --color-secondary: blue; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px dashed black; --sidebar-border: 1px dashed black; --prev-next-border: 1px dashed black; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: 1px dashed black; --color-embed-background: white; --color-embed-title: black; --color-embed-text: black; --footnote-border: 1px dashed black; --color-footnote-background: white; --color-footnote-text: black; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: white; --color-sidenote-text: var(--color-text); }
+[data-theme="white"] { font-family: 'Inconsolata',"Amiri", monospace; --background: white; --color-inner-divs: var(--background); --color-items: var(--background); --background-image: none; /* --- Text Colors --- */ --color-text: black; --color-subtext: black; --color-code: white; --internal-links: blue; --external-links: blue; --invalid-links: var(--internal-links); --color-primary: blue; --color-secondary: blue; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px dashed black; --sidebar-border: 1px dashed black; --prev-next-border: 1px dashed black; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: 1px dashed black; --color-embed-background: white; --color-embed-title: black; --color-embed-text: black; --footnote-border: 1px dashed black; --color-footnote-background: white; --color-footnote-text: black; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: white; --color-sidenote-text: var(--color-text); }
 
 /* [data-theme='blue'] { h1,h2,h3,h4,h5,h6 { line-height: 1.4; padding-bottom: 0; font-size:1.15em; margin:1em; margin-left:1em; text-align:left } .title-text { color: white; font-weight:bold; font-size:1.6em; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em; text-decoration:none !important; text-shadow: 0px 0px 6px darkblue; text-transform: uppercase } h1 {color:blue; font-weight:bold; text-decoration:underline; font-size: 1.3em;} h2 {color:blue; font-weight:bold;} h3 {color:blue; font-weight:normal; text-decoration:underline} h4 {text-transform:none;font-weight:strong; font-size:1em;} h5 {text-transform:none;font-weight:normal; text-decoration:underline; tfont-size:1em;} --background: lightgrey; --color-inner-divs: white; --color-items: white; --background-image: url("/assets/imgs/bgs/BGtile-3.png"); --color-text: black; --color-subtext: black; --color-code: #707070; --internal-links: blue; --external-links: blue; --invalid-links: var(--internal-links); --color-primary: darkblue; --color-secondary: blue; --color-box-shadow: none; --article-border: 1px solid rgba(255, 255, 255, 0.6); --sidebar-border: 1px solid rgba(255, 255, 255, 0.6); --prev-next-border: 1px solid rgba(255, 255, 255, 0.6); --color-item-border: none; --border-radius: 15px; --embed-border: medium double blue; --color-embed-background: var(--color-inner-divs); --color-embed-title: black; --color-embed-text: black; --footnote-border: thin solid blue; --color-footnote-background: var(--color-inner-divs); --color-footnote-text: blue; --sidenote-border: thin solid var(--color-secondary); --color-sidenote-background: #fffffa; --color-sidenote-text: black; article, .prev-next, .sidebar-card, .sidebar-link-box, .backlinks-container, .index-card { background: rgba(255, 255, 255, 0.8); border-radius: 16px; box-shadow: 0 4px 30px rgba(255, 255, 255, 0.8); border: 1px solid rgba(255, 255, 255, 0.6); } } */
-[data-theme="green"] { /* --- Body Colors --- */ --background: #0f0f0f; --color-inner-divs: #0f0f0f; --color-items: #0f0f0f; --background-image: url("/assets/imgs/bg-trees.png"); /* --- Text Colors --- */ --color-text: white; --color-subtext: white; --color-code: pink; --internal-links: yellowgreen; --external-links: yellowgreen; --invalid-links: var(--internal-links); --color-primary: yellowgreen; --color-secondary: darkgreen; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px solid white; --sidebar-border: 1px solid white; --prev-next-border: 1px solid white; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid yellowgreen; --color-embed-background: black; --color-embed-title: yellowgreen; --color-embed-text: white; --footnote-border: thin solid yellowgreen; --color-footnote-background: black; --color-footnote-text: white; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: black; --color-sidenote-text: var(--color-text); }
+[data-theme="green"] { /* --- Body Colors --- */ --background: #0f0f0f; --color-inner-divs: #0f0f0f; --color-items: #0f0f0f; --background-image: url("/assets/imgs/bg-trees.png"); /* --- Text Colors --- */ --color-text: white; --color-subtext: white; --color-code: white; --internal-links: yellowgreen; --external-links: yellowgreen; --invalid-links: var(--internal-links); --color-primary: yellowgreen; --color-secondary: darkgreen; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px solid white; --sidebar-border: 1px solid white; --prev-next-border: 1px solid white; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid yellowgreen; --color-embed-background: black; --color-embed-title: yellowgreen; --color-embed-text: white; --footnote-border: thin solid yellowgreen; --color-footnote-background: black; --color-footnote-text: white; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: black; --color-sidenote-text: var(--color-text); }
 
-[data-theme="red"] { /* --- Body Colors --- */ --background: #000000; --color-inner-divs: black; --color-items: black; --background-image: url("/assets/imgs/bg-red.gif"); /* --- Text Colors --- */ --color-text: white; --color-subtext: white; --color-code: pink; --internal-links: red; --external-links: red; --invalid-links: var(--internal-links); --color-primary: red; --color-secondary: firebrick; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px solid white; --sidebar-border: 1px solid white; --prev-next-border: 1px solid white; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid red; --color-embed-background: black; --color-embed-title: red; --color-embed-text: white; --footnote-border: thin solid red; --color-footnote-background: black; --color-footnote-text: white; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: black; --color-sidenote-text: var(--color-text); }
+[data-theme="red"] { /* --- Body Colors --- */ --background: #000000; --color-inner-divs: black; --color-items: black; --background-image: url("/assets/imgs/bg-red.gif"); /* --- Text Colors --- */ --color-text: white; --color-subtext: white; --color-code: white; --internal-links: red; --external-links: red; --invalid-links: var(--internal-links); --color-primary: red; --color-secondary: firebrick; --color-box-shadow: none; /* --- Borders --- */ --article-border: 1px solid white; --sidebar-border: 1px solid white; --prev-next-border: 1px solid white; --color-item-border: none; --border-radius: 0px; /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid red; --color-embed-background: black; --color-embed-title: red; --color-embed-text: white; --footnote-border: thin solid red; --color-footnote-background: black; --color-footnote-text: white; --sidenote-border: thin solid var(--color-text); --color-sidenote-background: black; --color-sidenote-text: var(--color-text); }
 
 [data-theme="beige"] { /* --- Body Colors --- */ --background: #f9f5e7; /* Light beige background for a paper feel */ --color-inner-divs: #f9f5e7; /* White for inner divs to resemble paper */ --color-items: #f9f5e7; /* White for items */ --background-image: url(/assets/imgs/bg-sand.jpg); /* No background image */ /* --- Text Colors --- */ --color-text: #4b3c27; /* Dark brown for text */ --color-subtext: #7a6f63; /* Medium brown for subtext */ --color-code: #e19e00; /* Soft golden color for code */ --internal-links: #8c5a2b; /* Warm brown for internal links */ --external-links: #b57f5e; /* Light brown for external links */ --invalid-links: var(--internal-links); /* Same as internal links */ --color-primary: #8c5a2b; /* Warm brown for primary color */ --color-secondary: #d8c2a3; /* Light beige for secondary color */ --color-box-shadow: rgba(0, 0, 0, 0.1); /* Light shadow for depth */ /* --- Borders --- */ --article-border: 1px solid #d0c6b6; /* Soft beige for article borders */ --sidebar-border: 1px solid #d0c6b6; /* Soft beige for sidebar borders */ --prev-next-border: none; /* No border for prev/next */ --color-item-border: none; /* No border for items */ --border-radius: 4px; /* Slightly rounded corners for a softer look */ /* --- Embeds, Sidenote and Footnote Colors --- */ --embed-border: thin solid #8c5a2b; /* Warm brown for embeds */ --color-embed-background: #ffffff; /* White background for embeds */ --color-embed-title: #8c5a2b; /* Warm brown for embed titles */ --color-embed-text: #4b3c27; /* Dark brown for embed text */ --footnote-border: thin solid #8c5a2b; /* Warm brown for footnote borders */ --color-footnote-background: #ffffff; /* White for footnotes */ --color-footnote-text: #4b3c27; /* Dark brown for footnote text */ --sidenote-border: thin solid var(--color-text); /* Warm brown for sidenote borders */ --color-sidenote-background: #ffffff; /* White for sidenotes */ --color-sidenote-text: var(--color-text); /* Dark brown for sidenote text */ }
 
@@ -307,43 +307,41 @@ template { display: none; }
 /* --- Borders --- */
 /* --- Embeds, Sidenote and Footnote Colors --- */
 /* --- Font Family --- */
-@font-face { font-family: "Computer Modern"; src: url("../assets/typefaces/cmunbi.woff"); font-weight: bold; font-style: italic; }
-
-@font-face { font-family: "Computer Modern"; src: url("../assets/typefaces/cmunbx.woff"); font-weight: bold; font-style: normal; }
-
-@font-face { font-family: "Computer Modern"; src: url("../assets/typefaces/cmunrm.woff"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: "Computer Modern"; src: url("../assets/typefaces/cmunti.woff"); font-weight: normal; font-style: italic; }
+.monospace { font-family: "Inconsolata", monospace; }
 
 * { font-variant-ligatures: none; }
 
 html { overflow: auto; /* or overflow: scroll; */ /* Optional for aesthetics */ scrollbar-width: none; }
 
-body { font-family: serif, "Scheherazade New"; padding: 4vh 6vw; overflow-x: hidden; color: var(--color-text); font-size: 1rem; background-color: var(--background); background-image: var(--background-image); }
+body { font-family: "Noto Serif", serif, "Amiri"; padding: 4vh 6vw; overflow-x: hidden; color: var(--color-text); font-size: 1rem; background-color: var(--background); background-image: var(--background-image); }
 
 /* TITLES
 ================================================== */
-h1, h2, h3, h4, h5, h6 { line-height: 1.4; padding-bottom: 0; font-size: 1.15em; margin: 1em; margin-left: 0em; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.4; padding-bottom: 0; font-size: 1.3em; margin: 1em; margin-left: 0em; }
 
-.title-text { text-decoration: underline; text-align: center; font-weight: bold; margin: 0em; line-height: 1em; font-variant: small-caps; }
+.title-text { font-size: 1.8em; margin: 0.5em 0.5em 0 0; text-decoration: underline; text-align: center; font-weight: bold; line-height: 1em; font-variant: small-caps; }
 
-.post-content h1 { text-transform: uppercase; text-align: center; font-weight: bold; text-decoration: underline; font-size: 1.3em; }
+.post-content h1 { text-align: center; font-weight: bold; text-decoration: underline; font-size: 1.8em; font-variant: small-caps; margin: 0.5em 0em; }
 
-.post-content h2 { text-align: left; font-weight: bold; border-bottom: thin solid var(--color-secondary); font-size: 1.5em; font-variant: small-caps; }
+.post-content h2 { text-align: left; font-weight: bold; border-bottom: thin solid var(--color-primary); font-size: 1.4em; font-variant: small-caps; margin: 0.5em 0em; }
 
-.post-content h3 { text-transform: none; font-weight: normal; text-decoration: underline; text-align: left; }
+.post-content h3 { text-transform: none; font-weight: bold; text-decoration: underline; text-align: left; font-variant: small-caps; }
 
-.post-content h4 { text-transform: none; font-weight: normal; font-size: 1em; text-align: left; }
+.post-content h4 { text-transform: none; font-weight: normal; font-size: 1.3em; text-align: left; }
 
 ul { list-style-type: circle; }
 
-hr { margin: 1.5em; border-color: var(--color-secondary); }
+hr { margin-bottom: 0em; border: none; border-top: thin solid var(--color-primary); }
 
 /* CODE HIGHLIGHTING
 ================================================== */
-code { color: white; background-color: blue; font-family: "Iosevka Term SS03", "IBM Plex Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono", Monaco, Consolas, Courier, monospace; font-size: 1em; }
+code { color: white; background-color: #0800a7; font-family: "Inconsolata", monospace; font-size: 0.8em; }
 
 PRE { margin-left: 1em; }
+
+pre.highlight { margin: 1em auto; border: thin solid white; width: 90%; background-color: #0800a7; }
+
+.highlight { margin: auto; background-color: transparent; padding: 1em; }
 
 /* LINKS
 ================================================== */
@@ -365,7 +363,7 @@ a.internal-link, a[href^="#"] { color: var(--internal-links); text-decoration: n
 
 .web-link { color: var(--external-links); }
 
-.web-link:hover { cursor: alias; color: var(--external-links); text-decoration: underline; }
+.web-link:hover { cursor: pointer; color: var(--external-links); text-decoration: underline; }
 
 .lastest-post-border h1, .title-text a { color: var(--color-text); }
 
@@ -415,7 +413,7 @@ h1:hover > a.anchor, h2:hover > a.anchor, h3:hover > a.anchor, h4:hover > a.anch
 ================================================== */
 .footer-nav { margin: 1em; font-size: 0.8em; color: var(--color-text); text-align: center; }
 
-license { text-align: center; font-family: "Iosevka Term SS03", "IBM Plex Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Droid Sans Mono", Monaco, Consolas, Courier, monospace; font: 1.1em; }
+license { text-align: center; font-family: "Inconsolata", monospace; font: 1.1em; }
 
 .license { padding: 1em; margin-top: 1em; max-width: 28em; margin: 0 auto; text-align: center; }
 
@@ -427,11 +425,13 @@ license { text-align: center; font-family: "Iosevka Term SS03", "IBM Plex Mono",
 
 .container-lg { max-width: 70em; margin: -1em auto; padding: 1em; margin-left: auto; margin-right: auto; }
 
-.leftcolumn { height: 100vh; position: absolute; width: 191px; }
+.leftcolumn { height: 100vh; position: absolute; width: 196px; }
 
 .midcolumn { z-index: 50; margin-left: 204px; width: 700px; position: absolute; min-height: 100vh; }
 
 .midcolumn-small { width: 40%; margin: auto; }
+
+.rightcolumn { margin-left: 838px; margin-top: 0em; float: right; position: fixed; top: 0; height: 100vh; z-index: -1; width: 100%; }
 
 main { margin: auto; }
 
@@ -484,11 +484,17 @@ sidebar-card a:hover { color: var(--color-text); }
 /* POST CONTENT
 (use this to style the formatting of your posts)
 ================================================== */
-.post-content { line-height: 1.5em; margin-left: 2em; margin-right: 1em; padding-top: 0.5em; }
+.post-content { line-height: 1.5em; margin-left: 2em; margin-right: 2em; padding-top: 0.5em; }
 
 .post-content img { max-width: 70%; display: block; margin: auto; margin-bottom: 2em; max-height: 75vh; border-radius: var(--border-radius); border: 1px solid var(--color-text); }
 
-.post-content blockquote { margin: 0; margin-left: 1em; font-size: 1em; }
+.post-image img { width: 100%; }
+
+.post-image { max-width: 80%; display: block; margin: 2em auto 0.5em; max-height: 75vh; border-radius: var(--border-radius); width: 60%; }
+
+.post-image a:hover { background-color: var(--color-primary); }
+
+.post-content blockquote { color: var(--color-code); font-family: "Inconsolata", monospace; font-size: 0.8em; background-color: #0800a7; margin: 2em auto; border: thin solid white; background-color: #0800a7; padding: 1.5em; border-radius: 3px; text-align: center; width: 80%; }
 
 .notes-entry-container { border: var(--color-item-border); padding: 1em; padding-top: 0em; }
 
@@ -504,7 +510,9 @@ img + em { display: block; color: var(--internal-links); text-align: center; wid
 
 /* EMBEDDED NOTES
 ================================================== */
-.embed-wrapper { border: var(--embed-border); padding: 1em; background-color: var(--color-embed-background); margin-top: 2em; margin-bottom: 2em; }
+.embed-wrapper { border: var(--embed-border); background-color: var(--color-embed-background); margin-top: 2em; margin-bottom: 2em; padding: 2em; }
+
+.embed-wrapper h1 { background-color: var(--color-embed-background); text-decoration: none; margin: auto; }
 
 .embed-title { display: none; }
 
@@ -514,17 +522,19 @@ img + em { display: block; color: var(--internal-links); text-align: center; wid
 
 /* SIDENOTES
 ================================================== */
-.sidenote { padding-left: 5px; padding-top: 3px; padding-bottom: 3px; margin-left: 1em; font-style: italic; font-size: 0.8em; line-height: 1.1em; box-sizing: border-box; background-color: var(--color-sidenote-background); border: var(--sidenote-border); color: var(--color-text); }
+.sidenote { padding-left: 0.6em; z-index: -2; padding-bottom: 3px; padding-right: 1em; font-style: italic; font-size: 0.8em; line-height: 1.1em; box-sizing: border-box; text-align: justify; background-color: var(--color-sidenote-background); border: var(--sidenote-border); color: var(--color-text); }
 
 .sidenote::after { content: ""; border-top: thin solid white; display: block; float: right; margin: auto; z-index: -2; width: 500px; position: absolute; top: 0.5em; right: 100%; }
 
-.sidenote-hover { color: green; z-index: 1; box-sizing: border-box; color: var(--internal-links); }
+.sidenote-hover { color: var(--color-subtext); box-sizing: border-box; }
 
-.sidenote:hover { z-index: 1; color: var(--color-text); border-color: var(--color-primary); }
+.sidenote-hover::after { content: ""; display: block; float: right; z-index: -10; width: 500px; border-bottom: thin solid #ff8585; }
+
+.sidenote:hover { color: var(--internal-links); }
 
 .footnote web-link { position: relative; }
 
-.bigger:after { content: ""; padding: 50px; position: absolute; left: -25px; top: -25px; }
+.bigger:after { content: ""; padding: 50px; position: absolute; left: -25px; top: -25px; z-index: 5; }
 
 /* FOOTNOTES
 ================================================== */
@@ -606,9 +616,7 @@ img + em { display: block; color: var(--internal-links); text-align: center; wid
 
 .next { float: right; }
 
-.title-text { font-size: 1.5em; margin-top: 0.5em; }
-
-.subtitle-text { width: 100%; text-align: center !important; margin: 0.5em auto; font-weight: normal; }
+.subtitle-text { width: 90%; text-align: center !important; margin: 0.5em auto; font-weight: normal; }
 
 /* COLOR BADGES (ZETTELKASTEN HEX)
 ================================================== */
@@ -674,8 +682,6 @@ article, .index-card { border: var(--article-border); box-sizing: border-box; }
 
 .left { float: left; width: 50%; padding: 1em; }
 
-.border { border: thin solid black; }
-
 .shadow { box-shadow: 0px 0px 15px black; }
 
 .glow { box-shadow: 0px 0px 15px white; }
@@ -685,7 +691,9 @@ article, .index-card { border: var(--article-border); box-sizing: border-box; }
 
 @media (max-width: 1240px) { .theme-toggle-button { right: initial; left: 10px; top: 10px; } }
 
-@media (max-width: 875px) { .theme-toggle-button { top: 30px; position: relative; float: right; } }
+@media (max-width: 1000px) { .theme-toggle-button { top: 30px; position: relative; float: right; } }
+
+@media (max-width: 800px) { .theme-toggle-button { top: 30px; position: fixed; right: 0; } }
 
 .theme-toggle-button:hover { transition: font-size 0.1s; font-size: 125%; }
 
@@ -725,11 +733,11 @@ article, .index-card { border: var(--article-border); box-sizing: border-box; }
 
 .aWrap input[type="range"]::-moz-range-thumb { width: 11px; height: 11px; border: 0; background: var(--color-primary); position: relative; cursor: pointer; margin-top: -3px; }
 
-@media (max-width: 875px) { .leftcolumn { display: none; } .midcolumn { border: none; width: 100vw; margin: 0px; margin-top: 2em; position: relative; } .sidebar-card { display: none; } .related { display: none; } .notes-entry-container { padding: minmax(2em, 1%); } .container-lg { margin: 0px; padding: 0px; margin-top: 2em; } .mobile-nav { display: flex; } article { margin: 0; } body { padding: 0; background-image: none; } .index-card { border: none; } .midcolumn-borderless { border: none; width: 100vw; margin: 0px; margin-top: 2em; } .license { display: none; } }
+@media (max-width: 1000px) { .leftcolumn { display: none; } .midcolumn { border: none; width: 100vw; margin: 0px; margin-top: 2em; position: relative; } .sidebar-card { display: none; } .related { display: none; } .notes-entry-container { padding: minmax(2em, 1%); } .container-lg { margin: 0px; padding: 0px; margin-top: 2em; } .mobile-nav { display: flex; } article { margin: 0; } body { padding: 0; background-image: none; } .index-card { border: none; } .midcolumn-borderless { border: none; width: 100vw; margin: 0px; margin-top: 2em; } .license { display: none; } }
 
 body { overflow-wrap: break-word; }
 
-@media (max-width: 1350px) { .sidenote { display: none; } .midcolumn { width: 75%; } .leftcolumn { width: 20%; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
+@media (max-width: 1275px) { .sidenote { display: none; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
 @media (max-width: 800px) { .midcolumn, .leftcolumn { width: 100%; margin: auto; } .sidebar-link-box { line-height: 0.8em; } .containter-lg { width: 100%; } .sidebar-card { padding: 0.5em; } .related, .tags { display: none; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: var(--background); padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 

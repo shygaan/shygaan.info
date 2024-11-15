@@ -5,6 +5,7 @@ subtitle:
 date: 2022-07-03
 source: 
 tags: research history
+image: junglefowl.png
 ---
 
 # Origin and History of the Chicken

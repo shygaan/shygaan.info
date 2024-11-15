@@ -10,7 +10,7 @@ toc: true
 
 ## Foundation - The Race of the Body
 
->The Phenotypical Manifestation of the Collective
+### The Phenotypical Manifestation of the Collective
 
 The **Race of the Body**, in its essence, is the immediate and material expression of a people, the visible trace of their lineage upon the surface of the world. It is through the corporeal form that the race first makes itself known. It is in the skin, the eye, the hair, and the posture that one encounters the signs of a deeper unity -- an inherited language of flesh that betrays the long history of a people’s sojourn upon the Earth.
 
@@ -22,7 +22,7 @@ Let us not mistake the physical for the final. The body is but the first veil be
 
 ## Actualization - The Race of the Soul
 
->The Internal Manifestation of the Collective Will
+### The Internal Manifestation of the Collective Will
 
 The Race of the Soul is the realization of the inner essence of a people, the psychic and mental substratum that gives rise to their shared ethos. It is here that the body gives way to the mind, and the people’s collective consciousness is revealed. 
 This component of race cannot be perceived through the senses, yet it governs the thoughts, the behaviors, and the ideals that animate the race as a whole. It is in the soul that the peculiarities of a people’s character, their intellectual tendencies, and their social inclinations are to be found.
@@ -33,7 +33,7 @@ Thus, the Race of the Soul is a people’s mental and emotional inheritance, mad
 
 ## Realization - The Race of the Spirit
 
-The Transcendental Force Drawn into the Blood
+### The Transcendental Force Drawn into the Blood
 
 Race of the Spirit is the most elusive and profound of the three components. If the Race of the Body is the foundation and the Race of the Soul the manifestation, the Race of the Spirit is the very source of the race's vitality, its spiritual energy. It is not of this world; existing outside the bounds of the physical and psychological realms, beyond the reach of empirical investigation. It is the transcendental force that binds the people to the divine, to the cosmic order, and to the eternal laws of creation.
 
@@ -41,6 +41,6 @@ The Race of the Spirit must be *realized*, not simply inherited. This spirit is 
 
 It is through these rites and spiritual exercises that the Race of the Spirit comes into its own: the Race of the Body and Soul behave as a pylon between the individual and the cosmic, marking the moment where the bloodline is made sacred. This process is not without its guardians; the spiritual elite of a people --  be they the Brahmins of India, the Patricians of Rome, or the Samurai of Japan -- act as the custodians of this force, channeling and protecting the bond between the people and the divinity of their heritage.
 
-The Race of the Spirit enters the blood and becomes inseparable from the people themselves, providing them with purpose, destiny, and ascendant meaning. It is through this realization that the race rises above physical existence and mental constructs and becomes a living expression of Divine Will upon the Earth.
+The Race of the Spirit enters the blood and becomes inseparable from the people themselves, providing them with purpose, destiny, and ascendant meaning. This is what allows the race to rise above physical existence and mental constructs and become a living expression of Divine Will upon the Earth.
 
 Thus, the Race of the Spirit completes the triad; it reveals the nature of a people not as an isolated entity, but as a participant in the greater order of eternal creation and destruction.

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% include head-custom.html %}
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  <body>
+  <body data-theme="black">
     {% include mobile-nav.html %}
     <button onclick="toggleTheme()" id="theme-toggle" class="theme-toggle-button">𐎄𐎍</button>
       {{ content }}

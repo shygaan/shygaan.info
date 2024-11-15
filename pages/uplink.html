@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Uplink
+title: Journals
 date:
 type:
-
+permalink: /journals
 ---
 
 <div class="container-lg">
@@ -11,15 +11,15 @@ type:
     <div class="leftcolumn">
       {% include profile-card.html %}
     </div>
-    {% assign items = site.uplink | sort: 'date' | reverse %}
-    {% assign posts_displayed = site.uplink.size | at_most: 10 %}
-    {% assign posts_total  = site.uplink.size %}
+    {% assign items = site.journals | sort: 'date' | reverse %}
+    {% assign posts_displayed = site.journals.size | at_most: 10 %}
+    {% assign posts_total  = site.journals.size %}
 
     <div class="midcolumn">
       <article>
-        <h1 class="title-text">Latest Uplinks</h1>
+        <h1 class="title-text">Latest Journals</h1>
         <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} entries</p>
-        <p style=" width: 100%; text-align: center"><a href="/pages/uplink-index/">View Index</a></p>
+        <p style=" width: 100%; text-align: center"><a href="/journals-index/">View Index</a></p>
       </article>
 <br>
       {% for item in items %}
@@ -46,6 +46,14 @@ type:
           {% endunless %}
           {% endfor %}
 
+
+          {% if item.image %}
+          <div class="post-image" style="max-width: 40%;">
+            <a href="{{site.baseurl}}/images/{{ item.image }}">
+              <img src="/images/{{ item.image }}" class="border" alt="Post Image">
+            </a>
+          </div>
+        {% endif %}
         <div class="notes-entry-container note">
           <div class="content post-content">
             {{ item.content | truncatewords: 7000 }}

@@ -21,6 +21,7 @@ layout: default
           {% endif %}
           <div class="post-date"><strong>Created:</strong> {{ page.date | date: '%b %d, %Y' }}</div>
           <!-- <div class="post-date"><strong>Modified:</strong> {{ page.last_modified_at | date: '%b %d, %Y' }}</div> -->
+           
         </div>
 
       <div class="title">
@@ -33,7 +34,13 @@ layout: default
       </div>
         {% endunless %}
         {% endfor %}
-
+        {% if page.image %}
+        <div class="post-image">
+          <a href="/images/{{ page.image }}">
+            <img src="/images/{{ page.image }}" class="border" alt="Post Image">
+          </a>
+        </div>
+      {% endif %}
          {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=1 h_max=4 %}
         </div>
 

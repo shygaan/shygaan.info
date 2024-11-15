@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Databank
+title: Wiki
 date:
 type:
-
+permalink: /wiki
 ---
 
 <div class="container-lg">
@@ -14,12 +14,12 @@ type:
 
     <div class="midcolumn">
       <article>
-        <h1 class="title-text">Latest Databank Entries</h1>
-        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.databank.size }} posts</p>
-        <p style=" width: 100%; text-align: center"><a href="/pages/databank-index">View Index</a></p>
+        <h1 class="title-text">Latest Wiki Entries</h1>
+        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.wiki.size }} posts</p>
+        <p style=" width: 100%; text-align: center"><a href="/wiki-index">View Index</a></p>
       </article>
 <br>
-      {% assign items = site.databank | sort: 'date' | reverse %}
+      {% assign items = site.wiki | sort: 'date' | reverse %}
       {% for item in items %}	
 
     <main>
@@ -36,6 +36,13 @@ type:
         </div>
           {% endunless %}
           {% endfor %}
+          {% if item.image %}
+          <div class="post-image" style="max-width: 40%;">
+            <a href="{{site.baseurl}}/images/{{ item.image }}">
+              <img src="/images/{{ item.image }}" class="border" alt="Post Image">
+            </a>
+          </div>
+        {% endif %}
           <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
 
         <div class="notes-entry-container note">

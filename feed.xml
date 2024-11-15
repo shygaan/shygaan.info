@@ -1,0 +1,26 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+{% assign sorted_documents = site.documents | sort: 'date' | reverse %}
+{% for document in sorted_documents %}
+  {% if document.collection != 'music' and document.collection != 'academics' and document.collection != 'wiki'%}
+    <item>
+      <title>{{ document.title | xml_escape }}</title>
+      <description>{{ document.content | xml_escape }}</description>
+      <pubDate>{{ document.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <link>{{ site.url }}{{ document.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ document.url }}</guid>
+    </item>
+  {% endif %}
+{% endfor %}
+
+
+  </channel>
+</rss>

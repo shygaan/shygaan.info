@@ -4,16 +4,11 @@ body {
     overflow-wrap:break-word;
 }
 
- @media (max-width: 1350px) {
-     .sidenote, {
+ @media (max-width: 1275px) {
+     .sidenote {
          display: none;
      }
-     .midcolumn, {
-         width: 75%;
-     }
-      .leftcolumn, {
-         width: 20%;
-     }
+
      .sidebar-link-box {
     overflow-x: hidden;
 }

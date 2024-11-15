@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Uplink Index
+title: Journals Index
 date:
 type:
-
+permalink: /journals-index
 ---
 <main>
 <section class="container-lg">
@@ -14,11 +14,11 @@ type:
 
   <div class="midcolumn">
   <div class="index-card">
-    <p style="float: right">Showing {{ site.uplink.size }} items</p>
-    <h1 class="index-title">Index: Uplink (By most recent)</h1>
+    <p style="float: right">Showing {{ site.journals.size }} items</p>
+    <h1 class="index-title">Index: Journals (By most recent)</h1>
     <div class="index-grid">
 
-  {% assign item_sort = site.uplink | sort: 'date' | reverse %}
+  {% assign item_sort = site.journals | sort: 'date' | reverse %}
   {% for item in item_sort %}	
     <a class="index-anchor" href="{{ item.url }}">
       <div class="index-item">

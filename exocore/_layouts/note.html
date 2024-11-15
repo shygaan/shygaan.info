@@ -31,6 +31,13 @@ layout: default
         {% endunless %}
         {% endfor %}
 
+        {% if page.image %}
+        <div class="post-image">
+          <a href="/images/{{ page.image }}">
+            <img src="/images/{{ page.image }}" class="border" alt="Post Image">
+          </a>
+        </div>
+      {% endif %}
          {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=1 h_max=4 %}
         </div>
 
@@ -52,6 +59,7 @@ layout: default
 {% include license.html %}
 </div>
 
+<div class="rightcolumn"></div>
 
 </div>
     

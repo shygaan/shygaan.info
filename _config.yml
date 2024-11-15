@@ -2,8 +2,8 @@
 # --- USER CONFIGURATION --- #
 ##############################
 
-title: Shygaan Khalili
-description: Writings of a carbon-based primitive in a silicon world
+title: '0xA79D2E'
+description:
 url: https://shygaan.info
 repository: shygaan/shygaan.info
 
@@ -34,6 +34,8 @@ jekyll_analytics:        # Uncomment desired analytics tracker and input details
 #################################
 # --- EXOCORE CONFIGURATION --- #
 #################################
+exclude:
+  - "404.html"
 
 baseurl: ''
 source: .
@@ -71,22 +73,22 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/e070ca924883ff16d9672717667be9b0.jpg
+      image:
   - scope:
       path: ""
-      type: "journal"
-    values:
-      layout: "journal"
-  - scope:
-      path: ""
-      type: "echo"
+      type: "articles"
     values:
       layout: "article"
   - scope:
       path: ""
-      type: "databank"
+      type: "journals"
     values:
-      layout: "databank"
+      layout: "journal"
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: "wiki"
   - scope:
       path: ""
       type: "daily"
@@ -99,12 +101,12 @@ defaults:
       layout: "note"
   - scope:
       path: ""
-      type: "music"
+      type: "academics"
     values:
       layout: "note"
   - scope:
       path: ""
-      type: "poems"
+      type: "music"
     values:
       layout: "note"
 
@@ -114,21 +116,25 @@ collections:
   music:
     output: true
     permalink: /:collection/:slug
-  poems:
+  academics:
     output: true
     permalink: /:collection/:slug
-  databank:
+  wiki:
     output: true
     permalink: /:collection/:slug
-  uplink:
+
+  journals:
     output: true
     permalink: /:collection/:slug
-  echo:
+
+  articles:
     output: true
     permalink: /:collection/:slug
+
   daily:
     output: false
     permalink: /:collection/:slug
+
   notes:
     output: true
     permalink: /:collection/:slug
@@ -185,10 +191,12 @@ plugins:
 - jekyll-relative-links
 # - jekyll-github-metadata
 - jekyll-seo-tag
-# - html-proofer
+- html-proofer
 - rubocop
 - w3c_validators
-- jekyll-last-modified-at
+# - jekyll-last-modified-at
 - jekyll-redirect-from
 - jekyll-feed
 - jekyll-wikilinks
+- jekyll-graph
+- jekyll-feed

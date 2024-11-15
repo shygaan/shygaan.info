@@ -3,8 +3,8 @@ layout: page
 category: archive
 title: Archive
 subtitle:
-date: 
-tags: 
+date:
+permalink: /archive
 ---
 <main>
   <section class="container-lg">
@@ -14,11 +14,11 @@ tags:
     
     <div class="midcolumn">
     <div class="archive-grid">
-      
+
       <div class="index-card">
-        {% assign all_posts = site.echo %}
-      {% assign all_posts = all_posts | concat: site.uplink %}
-      {% assign all_posts = all_posts | concat: site.databank %}
+        {% assign all_posts = site.articles %}
+      {% assign all_posts = all_posts | concat: site.journals %}
+      {% assign all_posts = all_posts | concat: site.wiki %}
       {% assign all_posts = all_posts | concat: site.notes %}
 
       <!-- Sort the combined list by date in descending order -->
@@ -26,13 +26,35 @@ tags:
 
       <!-- Display the sorted posts in a single table -->
         <style>
-          table, tr, td {
-            border: none;
-            font-family: monospace;
-            padding: 0;
+          .pre-archive {
+              border-collapse: separate;
+              border: none;
+              font-family: monospace;
+              border-spacing: 0px;
+              padding: 0;
           }
+          .pre-archive td, .pre-archive tr {
+            padding: 0px;
+            margin: 0px;
+            border: none;
+          }
+          .pre-archive p {
+              display: inline;
+              margin: 0px;
+              padding: 0px;
+          }
+          .archive-title:hover {
+            text-decoration: none;
+            background-color: var(--color-secondary);
+            cursor: pointer;
+            a {
+              color: var(--color-text);
+            }
+        }
         </style>
-        <table class="archive-table">
+
+        <table class="pre-archive">
+          <tr><td colspan="8" style="text-align: center;">ARCHIVE</td></tr>
           <tbody>
             <tr>
               <td>--------------------------------</td>
@@ -57,7 +79,7 @@ tags:
             </tr>
             {% for post in sorted_posts %}
               <tr>
-                <td><a class="index-anchor" href="{{ post.url }}">{{ post.title | truncate:30, "" | upcase }}</a></td>
+                <td class="archive-title"><p><a class="index-anchor" href="{{ post.url }}">{{ post.title | truncate:30, "" | upcase }}</a></p></td>
                 <td>{{ post.date | date: "%m.%d.%Y" }}</td>
                 <td>{{ post.collection | truncate:4, "" | upcase}}</td>
                 <td>{{ post.content | strip_html | split: ' ' | size  }}</td>

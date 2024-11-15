@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Echo
+title: Articles
 date:
 type:
-
+permalink: /articles
 ---
 
 <div class="container-lg">
@@ -11,15 +11,15 @@ type:
     <div class="leftcolumn">
       {% include profile-card.html %}
     </div>
-    {% assign items = site.echo | sort: 'date' | reverse %}
-    {% assign posts_displayed = site.echo.size | at_most: 10 %}
-    {% assign posts_total  = site.echo.size %}
+    {% assign items = site.articles | sort: 'date' | reverse %}
+    {% assign posts_displayed = site.articles.size | at_most: 10 %}
+    {% assign posts_total  = site.articles.size %}
 
     <div class="midcolumn">
       <article>
-        <h1 class="title-text">Latest Echoes</h1>
-        <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} echoes</p>
-        <p style=" width: 100%; text-align: center"><a href="/pages/echo-index">View Index</a></p>
+        <h1 class="title-text">Latest Articles</h1>
+        <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} articles</p>
+        <p style=" width: 100%; text-align: center"><a href="/articles-index">View Index</a></p>
       </article>
 <br>
       {% for item in items %}	
@@ -45,6 +45,13 @@ type:
         </div>
           {% endunless %}
           {% endfor %}
+          {% if item.image %}
+          <div class="post-image" style="max-width: 40%;">
+            <a href="{{site.baseurl}}/images/{{ item.image }}">
+              <img src="/images/{{ item.image }}" class="border" alt="Post Image">
+            </a>
+          </div>
+        {% endif %}
         <div class="notes-entry-container note">
           <div class="content post-content">
             {{ item.content | truncatewords: 7000 }}

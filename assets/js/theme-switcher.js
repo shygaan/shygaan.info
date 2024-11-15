@@ -1,5 +1,5 @@
 // Array of themes
-const themes = ['black', 'red', 'green', 'white'];
+const themes = ['black', 'red', 'green', 'beige'];
 
 // Function to load the initial theme from localStorage or default to 'paper'
 function loadInitialTheme() {

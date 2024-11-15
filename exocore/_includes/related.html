@@ -2,12 +2,12 @@
 <div class="sidebar-card related">
 	<h1> Related</h1>
 	<div class="sidebar-link-box">
-		<h2><a class="silent-link" href="/pages/echo">Echo</a></h2>
+		<h2><a class="silent-link" href="/articles">Articles</a></h2>
 		{% assign maxRelated = 3 %}
 		{% assign minCommonTags = 1 %}
 		{% assign maxRelatedCounter = 0 %}
 		<ul>
-			{% for article in site.echo %}
+			{% for article in site.articles %}
 			{% assign sameTagCount = 0 %}
 			{% assign commonTags = '' %}
 
@@ -31,7 +31,7 @@
 			{% endfor %}
 
 			{% if maxRelatedCounter == 0 %}
-			{% assign topic_sort = site.echo | sort: 'date' | reverse %}
+			{% assign topic_sort = site.articles | sort: 'date' | reverse %}
 			{% for article in topic_sort | limit: 3 %}
 			<li><a href="{{ site.baseurl }}{{ article.url }}">{{ article.title |
 					truncate: 30 }}</a></li>
@@ -40,13 +40,13 @@
 		</ul>
 	</div>
 	<div class="sidebar-link-box">
-		<h2><a class="silent-link" href="/pages/uplink-index">Uplink</a></h2>
+		<h2><a class="silent-link" href="/journals-index">Journals</a></h2>
 
 		{% assign maxRelated = 3 %}
 		{% assign minCommonTags = 1 %}
 		{% assign maxRelatedCounter = 0 %}
 		<ul>
-			{% for journal in site.uplink %}
+			{% for journal in site.journals %}
 
 			{% assign sameTagCount = 0 %}
 			{% assign commonTags = '' %}
@@ -71,7 +71,7 @@
 			{% endif %}
 			{% endfor %}
 			{% if maxRelatedCounter == 0 %}
-			{% assign topic_sort = site.uplink | sort: 'date' | reverse %}
+			{% assign topic_sort = site.journals | sort: 'date' | reverse %}
 			{% for journal in topic_sort | limit: 3 %}
 			<li><a href="{{ site.baseurl }}{{ journal.url }}">{{ journal.title |
 					truncate: 30 }}</a></li>
@@ -81,12 +81,12 @@
 	</div>
 
 	<div class="sidebar-link-box">
-		<h2><a class="silent-link" href="/pages/databank-index">Databank</a></h2>
+		<h2><a class="silent-link" href="/wiki-index">Wiki</a></h2>
 		{% assign maxRelated = 3 %}
 		{% assign minCommonTags = 1 %}
 		{% assign maxRelatedCounter = 0 %}
 		<ul>
-			{% for wiki in site.databank %}
+			{% for wiki in site.wiki %}
 
 			{% assign sameTagCount = 0 %}
 			{% assign commonTags = '' %}
@@ -109,7 +109,7 @@
 			{% endif %}
 			{% endfor %}
 			{% if maxRelatedCounter == 0 %}
-			{% assign topic_sort = site.databank | sort: 'date' | reverse %}
+			{% assign topic_sort = site.wiki | sort: 'date' | reverse %}
 			{% for wiki in topic_sort | limit: 3 %}
 			<li><a href="{{ site.baseurl }}{{ wiki.url }}">{{ wiki.title | truncate: 30
 					}}</a></li>
@@ -120,7 +120,7 @@
 		</ul>
 	</div>
 		<div class="sidebar-link-box">
-			<h2><a class="silent-link" href="/pages/notes">Notes</a></h2>
+			<h2><a class="silent-link" href="/notes">Notes</a></h2>
 			{% assign maxRelated = 3 %}
 			{% assign minCommonTags = 1 %}
 			{% assign maxRelatedCounter = 0 %}

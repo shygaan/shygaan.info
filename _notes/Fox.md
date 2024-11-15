@@ -2,7 +2,7 @@
 subtitle:
 date: 2021-05-21
 tags: philosophy
-published: false
+published: true
 author: Yukio Mishima
 ---
 # To Die Among Strangers
